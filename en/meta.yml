@@ -1,11 +1,18 @@
-title: Sensory gadget
+title: invent-project-template
 hero_image: images/banner.png
-description: sensory-gadget description
+description: invent-project-template description
 version: 4
 listed: false
 copyedit: false
-last_tested: "2022-01-10"
+last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Your idea
+  - title: Build and test
+    completion: engaged
+  - title: Share
+    completion: internal
+  - title: Reflect
+    completion: external
+  - title: Upgrade your project
   - title: What next?
