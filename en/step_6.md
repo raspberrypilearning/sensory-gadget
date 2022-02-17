@@ -1,22 +1,50 @@
-## Upgrade your project
+# Upgrade
 
-If you have time you can upgrade your project. You might have ideas to add more already or you might want to go back to the first step and look at other projects again for more inspiration.
+If you have time you can upgrade your project.
 
-You could:
-- ...
-- ...
+--- task ---
 
-Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch and look at the code to get ideas and see how they work.
+You can look inside each of the examples in the [Introduction](.) to see the how the code works and get more inspiration.
 
-<mark> Optional </mark>Each example project in the [Introduction](.) has a ‘See Inside’ link for you to open the project in Scratch and look at the code to get ideas and see how they work.
+--- /task ---
 
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
+--- task ---
 
-Take a look at some I made you a book projects created by community members in the Raspberry Pi Foundation’s studio of I made you a book Community Projects [See inside](https://scratch.mit.edu/studios/29092393/){:target="_blank"}.
+Here are some other ideas you could try:
++ Do some testing with your audience then improve usability
++ Add more buzzers and input controls
++ Continue to craft your device to improve the structure or design
++ Add lights to your machine using LEDs
 
+--- /task ---
+
+--- no-print ---
+
+**xxxx**
+xxxxx. 
+
+<video width="640" height="360" controls>
+<source src="images/xxxx.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
+
+--- /no-print ---
+
+--- print-only ---
+
+**xxxx**
+xxxx. 
+
+![xxxx.](images/xxxx.jpeg){:width="300px"}
+
+--- /print-only ---
+
+--- task ---
+
+Take a look at our 
+['Sensory gadget - Community'](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery to see projects created by our community members.
+
+--- /task ---
 
 --- save ---
 
