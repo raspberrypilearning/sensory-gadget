@@ -1,7 +1,5 @@
 ## Share
 
-## Share
-
 If you are in a club, why not share your project with friends? You could also show your family how your project works.
 
 --- task ---
