@@ -12,9 +12,8 @@ You can look inside each of the examples in the [Introduction](.) to see the how
 
 Here are some other ideas you could try:
 + Do some testing with your audience then improve usability
-+ Add more buzzers and input controls
++ Add more input or output components
 + Continue to craft your device to improve the structure or design
-+ Add lights to your machine using LEDs
 
 --- /task ---
 
