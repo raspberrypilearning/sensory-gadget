@@ -1,23 +1,14 @@
 ## Share
 
-<mark> This is for Scratch </mark>
+## Share
 
-Now is the time to share your book with your audience.
-
-If you have a Scratch account, you can share your project through Scratch. Check with an adult first. You can send a link to people you know, and the whole Scratch community will be able to find your project and try it out.
-
-[[[share-scratch]]]
-
-Why not invite your friends to create a project? Let them know how you had fun.
-
-If you have a Scratch account, and have shared your book project, keep an eye out for comments that others may make about your creation. Feedback is a great way to reflect on your work. Report and ignore any comments that are unhelpful or irrelevant.
-
-[[[comments-feedback-scratch]]]
+If you are in a club, why not share your project with friends? You could also show your family how your project works.
 
 --- task ---
 
-Inspire others with your project by submitting it to our Scratch studio! 
+Inspire the Raspberry Pi Foundation community with your project!
 
-To share your book with others who make the 'I made a book' project, please complete [this form.](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}
+To submit a video of your sound machine to our ['Sensory gadget - Community'](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}. Remember to project your identity by making sure that people do not appear in your video.
 
 --- /task ---
+
