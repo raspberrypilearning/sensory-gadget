@@ -4,11 +4,13 @@ Now it's time to make your sensory gadget.
 
 ![](images/image.png)
 
-### Output
+### Connect your outputs
 
 --- task ---
 
 You have built up some really useful skills. Here is a reminder to help you make your sensory gadget: 
+
+[[[sharing-a-ground-pin]]]
 
 ### Single colour LEDs
 
@@ -50,7 +52,7 @@ title: Add a function to turn on a single LED
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sensory-gadget.py
 line_numbers: false
 line_number_start: 1
 line_highlights: 1-2
@@ -71,7 +73,7 @@ title: Add functions to control multiple single LEDs
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sensory-gadget.py
 line_numbers: false
 line_number_start: 1
 line_highlights: 1-2
@@ -124,7 +126,7 @@ title: Add functions to set an RGB LED colour
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sensory-gadget.py
 line_numbers: false
 line_number_start: 1
 line_highlights: 1-5
@@ -160,7 +162,7 @@ title: Call a function
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sensory-gadget.py
 line_numbers: false
 line_number_start: 1
 line_highlights: 7
@@ -179,17 +181,15 @@ happy()
 
 --- /task ---
 
+### Connect your inputs
+
 --- task ---
 
-### Inputs
+### Button
 
 [[[single-button-wiring]]]
 
 [[[multiple-button-wiring]]]
-
-[[[crafted-switch-button-wiring]]]
-
-[[[multiple-crafted-switch-button-wiring]]]
 
 --- collapse ---
 
@@ -200,7 +200,7 @@ title: Import Button
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sensory-gadget.py
 line_numbers: false
 line_number_start: 1
 line_highlights: 1
@@ -214,8 +214,6 @@ from picozero import Button
 
 [[[single-button-pins]]]
 [[[multiple-button-pins]]]
-[[[single-switch-pins]]]
-[[[multiple-switches-pins]]]
 
 --- collapse ---
 
@@ -230,7 +228,7 @@ Make sure you use the function names from your project and just use the name of 
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sensory-gadget.py
 line_numbers: false
 line_number_start: 
 line_highlights: 
@@ -257,7 +255,7 @@ Make sure the function names match the mood functions you defined in the previou
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sensory-gadget.py
 line_numbers: false
 line_number_start: 
 line_highlights: 
@@ -287,8 +285,61 @@ button.when_pressed = choice # Call the choice function when the button is press
 
 --- /collapse ---
 
+### Switch
+
+[[[crafted-switch-button-wiring]]]
+
+[[[multiple-crafted-switch-button-wiring]]]
+
+--- collapse ---
+
+---
+title: Import Switch
+---
+
+--- code ---
+---
+language: python
+filename: sensory-gadget.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+
+from picozero import Switch
+
+--- /code ---
+
+--- /collapse ---
+
+[[[single-switch-pins]]]
+[[[multiple-switches-pins]]]
+
+### Potentiometer
+
 [[[potentiometer-wiring]]]
 [[[potentiometer-pin]]]
+
+--- collapse ---
+
+---
+title: Import Potentiometer
+---
+
+--- code ---
+---
+language: python
+filename: sensory-gadget.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+
+from picozero import Pot
+
+--- /code ---
+
+--- /collapse ---
 
 --- collapse ---
 
@@ -303,7 +354,7 @@ You can use `dial.percent` to get a value between 0 and 1 from the potentiometer
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sensory-gadget.py
 line_numbers: false
 line_number_start: 
 line_highlights: 
@@ -328,53 +379,45 @@ while True:
 
 --- /collapse ---
 
---- collapse ---
+--- /task ---
 
----
-title: Import Switch
----
+--- task ---
 
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 1
----
+**Test:** Test your inputs and outputs to make sure everything works as expected. 
 
-from picozero import Switch
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Import Potentiometer
----
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 1
----
-
-from picozero import Pot
-
---- /code ---
-
---- /collapse ---
+Use the **debug** task at the bottom of this step if you come across any problems.
 
 --- /task ---
 
 ### Craft your gadget
 
 --- task ---
+
+[[[mount-components]]]
+
+[[[diffuse-leds]]]
+
+--- collapse ---
+
+---
+title: Use tape to hold jumper wires in place
+---
+
+Use sticky tape or electrical tape to hold jumper wires in place so that your device stays together. 
+
+You can remove the tape later if you want to reuse the components. 
+
+--- /collapse ---
+
+[[[using-craft-knife]]]
+
+[[[joining-jumper-wires]]] 
+
+[[[drop-switch]]]
+
+[[[pull-switch]]] 
+
+[[[taping-components]]] 
 
 --- /task ---
 
@@ -418,6 +461,37 @@ Check your code to make sure that your colour values are in the right order. Use
 You might find a bug not listed here. Can you figure out how to fix it?
 
 We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
+
+--- collapse ---
+---
+title: My sounds are not playing, or not playing as I expected
+---
+
+Your code was working before you assembled your sensory gadget. It is unlikely that your code will be broken at this stage. The majority of bugs will be from wiring and components. 
+
++ Check that your components have been rewired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
++ Look for any loose connections and secure with tape
++ Check that you haven't covered any conductive elements of your circuit with sticky tape or glue.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: My wires aren't long enough now that they are in my sensory gadget
+---
+
+Now that you have crafted your sensory gadget, you might need extra-long wires to attach your component to your Raspberry Pi pins. Look at the instructions above to 'join jumper wires to extend them'.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: My wires or components wont stay in place
+---
+
+Some connections are stronger than others so you might find that you need to use tape to keep your wires connected to your components or to hold your components in place on your gadget. Look at the instructions above to 'secure wires and components using tape'.
+
+--- /collapse ---
 
 --- /task ---
 
