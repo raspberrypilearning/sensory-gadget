@@ -4,13 +4,11 @@ Now it's time to make your sensory gadget.
 
 ![](images/image.png)
 
+You have built up some really useful skills. Here is a reminder to help you make your sensory gadget: 
+
 ### Connect your outputs
 
 --- task ---
-
-You have built up some really useful skills. Here is a reminder to help you make your sensory gadget: 
-
-[[[sharing-a-ground-pin]]]
 
 ### Single colour LEDs
 
@@ -178,6 +176,8 @@ happy()
 --- /code ---
 
 --- /collapse ---
+
+[[[sharing-a-ground-pin]]]
 
 --- /task ---
 
@@ -379,6 +379,8 @@ while True:
 
 --- /collapse ---
 
+[[[sharing-a-ground-pin]]]
+
 --- /task ---
 
 --- task ---
@@ -458,10 +460,6 @@ Check your code to make sure that your colour values are in the right order. Use
 
 --- /collapse ---
 
-You might find a bug not listed here. Can you figure out how to fix it?
-
-We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
-
 --- collapse ---
 ---
 title: My sounds are not playing, or not playing as I expected
@@ -492,6 +490,10 @@ title: My wires or components wont stay in place
 Some connections are stronger than others so you might find that you need to use tape to keep your wires connected to your components or to hold your components in place on your gadget. Look at the instructions above to 'secure wires and components using tape'.
 
 --- /collapse ---
+
+You might find a bug not listed here. Can you figure out how to fix it?
+
+We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
 
 --- /task ---
 
