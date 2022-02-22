@@ -63,10 +63,10 @@ Your sensory gadget could:
 Think about the sensory gadget that you would like to make as you investigate these example projects:
 
 **The night sky**
-Tiny holes have been poked through a piece of black card to make a starry night effect on a ceiling in a dark room. An RGB LED pulses to create a twinkling effect. 
+Tiny holes have been poked through a piece of black card to make a night sky effect on a ceiling in a dark room. An RGB LED pulses to create a twinkling effect. A button is used to switch the light on and off.
 
 <video width="640" height="360" controls>
-<source src="images/filename" type="video/mp4">
+<source src="images/the-night-sky.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
