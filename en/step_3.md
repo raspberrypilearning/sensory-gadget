@@ -4,11 +4,13 @@ Now it's time to make your sensory gadget.
 
 ![](images/image.png)
 
+### Output
+
 --- task ---
 
 You have built up some really useful skills. Here is a reminder to help you make your sensory gadget: 
 
-### Outputs
+### Single colour LEDs
 
 [[[single-led-wiring]]]
 
@@ -86,6 +88,8 @@ def worried(): # Your second mood
 
 --- /collapse ---
 
+### RGB LEDs
+
 [[[rgb-wiring]]]
 
 --- collapse ---
@@ -137,6 +141,7 @@ def sad(): # Your second mood
 
 [[[generic-theory-simple-colours]]]
 
+### Speakers and buzzers
 
 [[[single-buzzer-wire]]]
 [[[stereo-buzzer-wiring]]]
@@ -172,19 +177,206 @@ happy()
 
 --- /collapse ---
 
+--- /task ---
+
+--- task ---
+
 ### Inputs
 
+[[[single-button-wiring]]]
 
-### Craft your gadget
+[[[multiple-button-wiring]]]
 
+[[[crafted-switch-button-wiring]]]
+
+[[[multiple-crafted-switch-button-wiring]]]
+
+--- collapse ---
+
+---
+title: Import Button
+---
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+
+from picozero import Button
+
+--- /code ---
+
+--- /collapse ---
+
+[[[single-button-pins]]]
+[[[multiple-button-pins]]]
+[[[single-switch-pins]]]
+[[[multiple-switches-pins]]]
+
+--- collapse ---
+
+---
+title: Call a different function when each button is pressed
+---
+
+You can have multiple buttons that each call a different function when they are pressed. 
+
+Make sure you use the function names from your project and just use the name of the function, do not call it by adding brackets.
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
+happy_button.when_pressed = happy
+sad_button.when_pressed = sad
+angry_button.when_pressed = angry
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Change to the next function when a single button is pressed
+---
+
+Use an `option` variable to keep track of the current mood so that you can decide which function to call next. 
+
+Make sure the function names match the mood functions you defined in the previous step.
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+option = 0 # store the current option
+
+def choice(): # call the next function and update the option
+    global option
+    if option == 0:
+        energised() # your first mood
+    elif option == 1:
+        calm()      # your second mood
+    elif option == 2:
+        focused()   # your third mood
+    elif option == 3:    
+        rgb.off()
+    
+    # move to the next option
+    if option == 3:
+        option = 0
+    else:
+        option = option + 1
+    
+button.when_pressed = choice # Call the choice function when the button is pressed
+
+--- /code ---
+
+--- /collapse ---
+
+[[[potentiometer-wiring]]]
+[[[potentiometer-pin]]]
+
+--- collapse ---
+
+---
+title: Call a function based on the value of the potentiometer
+---
+
+If you are using a potentiometer to control outputs then you will need to divide up the dial into equal sections. 
+
+You can use `dial.percent` to get a value between 0 and 1 from the potentiometer. If you have 5 moods then you can check whether the value is less than 20, 40, 60, 80 or 100. If you have 3 moods then you can check whether the value is less that 33, 66 or 100. 
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
+while True:
+    mood = dial.percent
+    print(mood)
+    if mood < 20:
+        happy()
+    elif mood < 40:
+        good()
+    elif mood < 60:
+        okay()
+    elif mood < 80:
+        unsure()
+    else:
+        unhappy()
+    sleep(0.1) 
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Import Switch
+---
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+
+from picozero import Switch
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Import Potentiometer
+---
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+
+from picozero import Pot
+
+--- /code ---
+
+--- /collapse ---
 
 --- /task ---
 
+### Craft your gadget
 
+--- task ---
 
-
-
-
+--- /task ---
 
 --- task ---
 
@@ -195,6 +387,13 @@ happy()
 --- task ---
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+
+[pico-common-code-errors]
+
+Code runs, but nothings happens:
++ Check that your inputs are connected correctly and that you used the correct pin in your code
++ Check the Thonny Shell for any messages about variables or functions not being defined, you might have forgotten to change the examples to match your code
++ Check your code carefully. You could add `print` statements to help you understand what is happening. 
 
 --- collapse ---
 
