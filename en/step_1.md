@@ -46,7 +46,7 @@ Your sensory gadget should:
 Your sensory gadget could:
 + Take ergonomics like user comfort into consideration
 + Reset on user input or after a set amount of time 
-+ Be a general sensory gadget or have a specific theme
++ Connect to a specific theme
 
 </div>
 
