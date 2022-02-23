@@ -19,7 +19,7 @@ You have built up some really useful skills. Here is a reminder to help you make
 --- collapse ---
 
 ---
-title: Import the single LED 
+title: Import LED from picozero
 ---
 
 --- code ---
@@ -178,6 +178,19 @@ happy()
 --- /collapse ---
 
 [[[sharing-a-ground-pin]]]
+
+### Pin already in use
+
+--- collapse ---
+---
+title: Adding a component where the pin is already in use
+---
+
+Your sensory gadget is your own design and may have a **different combination** of components to the ones suggested in the diagrams above. 
+
+If a pin is already in use then you will need to select a different pin and ground to use. Make sure that you **note down** which pin is in use for when you are writing your code. 
+
+--- /collapse ---
 
 --- /task ---
 

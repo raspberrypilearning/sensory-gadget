@@ -23,7 +23,7 @@ Watch the video below. Which senses are being stimulated? What output occurs whe
 A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button which alerts their carer.
 
 <video width="640" height="360" controls>
-<source src="images/file" type="video/mp4">
+<source src="images/communication-tool.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
