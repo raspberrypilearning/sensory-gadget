@@ -112,7 +112,7 @@ Tiny holes have been poked through a piece of black card to make a starry night 
 ![](images/image)
 
 **The buzzy bee**
-Description
+The bee's wings have kitchen foil on the back of them and when pressed down they connect to another piece of foil on the card - this makes a buzzer play a note. Each wing plays a different sound. A potentiometer controls a blue LED on the bee's tail.
 ![](images/buzy-bee.png)
 
 **Another example**
