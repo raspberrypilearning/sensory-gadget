@@ -86,8 +86,8 @@ Pressing the button lights the blade of the saber and starts the buzzers making 
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
-**Another example**
-Add description here...
+**Coded Candle**
+The LED will light and flicker to have the appearance of a flame. Blowing on the candle will close a switch and turn off the LED.
 
 <video width="640" height="360" controls>
 <source src="images/filename" type="video/mp4">
