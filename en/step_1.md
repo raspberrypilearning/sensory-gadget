@@ -78,11 +78,11 @@ The bee's wings have kitchen foil on the back of them and when pressed down they
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
-**Another example**
-Add description here...
+**Picosaber**
+Pressing the button lights the blade of the saber and starts the buzzers making a humming sound. Turning the potentiometer changes the colour of the blade and pitch of the hum. Turning the potentiometer all the way down plays a 'power-down sound' then switches off the lights and buzzers.
 
 <video width="640" height="360" controls>
-<source src="images/filename" type="video/mp4">
+<source src="images/picosaber.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
