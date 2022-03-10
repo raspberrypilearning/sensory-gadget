@@ -304,14 +304,28 @@ Add description here...
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
+--- collapse ---
+---
+title: See inside
+---
+--- code ---
+---
+language: python
+filename: 
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+
+--- /code ---
+
+--- /collapse ---
 
 --- /task ---
 
 --- /no-print ---
 
 --- print-only ---
-
-<mark> copy descriptions from above and replace videos with a still image </mark>
 
 **An assistive gadget**
 A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button which alerts their carer.
