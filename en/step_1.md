@@ -228,10 +228,6 @@ Pressing the button lights the blade of the saber and starts the buzzers making 
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
-<<<<<<< HEAD
-**Coded Candle**
-The LED will light and flicker to have the appearance of a flame. Blowing on the candle will close a switch and turn off the LED.
-=======
 --- collapse ---
 ---
 title: See inside
@@ -321,9 +317,59 @@ power.when_pressed = on
 
 --- /collapse ---
 
+**Digital Candle**
+The RGBLED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to another contact on the candle and stop the loop. After a while, the loop restarts.
+
+![Animation showing Mr C blowing out a digital Candle](images/candle.gif)
+
+--- collapse ---
+---
+title: See inside
+---
+
+--- code ---
+---
+language: python
+filename: candle.py
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+from picozero import RGBLED, Switch
+from time import sleep
+from random import randint
+
+# State which pins the components are placed on the Pico
+led = RGBLED(13, 14, 15)
+trigger = Switch(18)
+
+
+def light(): # flickering flame loop
+      red = randint(125,255) # mostly red
+      yellow = (red - 125) # never more than red
+      delay = randint(0,100)
+      led.color  =(red, yellow, 0)
+      sleep(delay/1000)
+
+
+def dark(): # no flame
+   led.off()
+   sleep(2) # dark time before reset
+
+
+# loop to check if switch is closed
+while True: 
+    if trigger.is_closed:
+        dark()
+    else:
+        light()
+
+--- /code ---
+
+--- /collapse ---
+
 **Marc Scotts example**
 Add description here...
->>>>>>> 2ca9b3952d8175ae69fd7439be949ad58307fce1
 
 <video width="640" height="360" controls>
 <source src="images/filename" type="video/mp4">
@@ -367,13 +413,14 @@ The bee's wings have kitchen foil on the back of them and when pressed down they
 
 **Picosaber**
 Pressing the button lights the blade of the saber and starts the buzzers making a humming sound. Turning the potentiometer changes the colour of the blade and pitch of the hum. Turning the potentiometer all the way down plays a 'power-down sound' then switches off the lights and buzzers.
-![desc](images/picosaber.png)
+![IMage showing the handle and glowing blade of a home made lightsaber](images/picosaber.png)
 
-<<<<<<< HEAD
-**Blow out Candle**
-=======
+**Digital Candle**
+The RGBLED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to another contact on the candle and stop the loop. After a while, the loop restarts.
+
+![Animation showing Mr C blowing out a digital Candle](images/candle.gif)
+
 **Marc Scotts example**
->>>>>>> 2ca9b3952d8175ae69fd7439be949ad58307fce1
 Description
 ![](images/image)
 

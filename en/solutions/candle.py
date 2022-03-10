@@ -7,7 +7,7 @@ led = RGBLED(13, 14, 15)
 trigger = Switch(18)
 
 
-def light():
+def light(): # flickering flame loop
       red = randint(125,255)
       yellow = (red - 125)
       delay = randint(0,100)
@@ -16,13 +16,10 @@ def light():
 
 def dark(): # no flame
    led.off()
-   sleep(2)
+   sleep(2) # dark time before reset
 
 
-light()
-# loop to check if switch is closed
-
-while True: 
+while True: # loop to check if switch is closed
     if trigger.is_closed:
         dark()
     else:
