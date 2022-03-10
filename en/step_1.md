@@ -119,7 +119,7 @@ The bee's wings have kitchen foil on the back of them and when pressed down they
 Pressing the button lights the blade of the saber and starts the buzzers making a humming sound. Turning the potentiometer changes the colour of the blade and pitch of the hum. Turning the potentiometer all the way down plays a 'power-down sound' then switches off the lights and buzzers.
 ![](images/picosaber.png)
 
-**Another example**
+**Blow out Candle**
 Description
 ![](images/image)
 
