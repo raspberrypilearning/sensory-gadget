@@ -2,7 +2,7 @@
 
 Now it's time to make your sensory gadget.
 
-![](images/image.png)
+![Three images on a box showing eating, drinking and playing. One of the images is backlit by an LED.](images/communication-tool.PNG){:width="300px"}
 
 You have built up some really useful skills. Here is a reminder to help you make your sensory gadget: 
 

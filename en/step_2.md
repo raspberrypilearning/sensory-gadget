@@ -2,7 +2,7 @@
 
 Use this step to plan your sensory gadget. You can plan by just thinking; tinkering; drawing or writing; or however you like! 
 
-![](images/image.png)
+![A plastic tube with a potentiometer and buzzer attached to create a mini light saber.](images/picosaber.png){:width="300px"}
 
 ### Why are you making your sensory gadget?
 
