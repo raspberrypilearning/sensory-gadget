@@ -5,7 +5,7 @@
 Make a fidget toy or sensory gadget. Your gadget will need to meet the **project brief**. 
 </div>
 <div>
-![A drawing of a bee with buzzers and a potentiometer attached.](images/buzy-bee.png){:width="300px"}
+![A plastic tube with a potentiometer and buzzer attached to create a mini light saber.](images/picosaber.png){:width="300px"}
 </div>
 </div>
 

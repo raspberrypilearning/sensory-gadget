@@ -1,8 +1,14 @@
 ## Your idea
 
-Use this step to plan your sensory gadget. You can plan by just thinking; tinkering; drawing or writing; or however you like! 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Use this step to plan your sensory gadget. You can plan by just thinking; tinkering; drawing or writing; or however you like!  
+</div>
+<div>
+![A drawing of a bee with buzzers and a potentiometer attached.](images/buzy-bee.png){:width="300px"}
+</div>
+</div>
 
-![A plastic tube with a potentiometer and buzzer attached to create a mini light saber.](images/picosaber.png){:width="300px"}
 
 ### Why are you making your sensory gadget?
 
