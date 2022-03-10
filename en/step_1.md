@@ -152,8 +152,6 @@ line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
-
---- /code ---
 from picozero import RGBLED, Button
 
 rgb = RGBLED(1, 2, 3)
@@ -171,6 +169,7 @@ def change_option():
         option = 0
 
 button.when_pressed = change_option
+--- /code ---
 
 --- /collapse ---
 
