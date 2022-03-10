@@ -1,13 +1,6 @@
 ## Introduction
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Make a fidget toy or sensory gadget. Your gadget will need to meet the **project brief**. 
-</div>
-<div>
-![A plastic tube with a potentiometer and buzzer attached to create a mini light saber.](images/picosaber.png){:width="300px"}
-</div>
-</div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 A <span style="color: #0faeb0">sensory gadget</span> is something that makes you want to keep interacting with it. A fidget toy is a type of sensory gadget that helps the user relieve stress or improve their concentration. An adaptive gadget can be used by people with physical disabilities for communication. A sensory gadget might stimulate all the senses or just focus on one.
