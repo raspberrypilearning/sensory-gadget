@@ -136,34 +136,6 @@ def sad(): # Your second mood
 [[[whitenoise-drum-beat]]]
 [[[interrupt-tune]]]
 
---- collapse ---
-
----
-title: Call a function 
----
-
---- code ---
----
-language: python
-filename: sensory-gadget.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 7
----
-def happy(): # Your first mood
-    rgb.color = (0, 255, 0) # Your first colour
-
-def sad(): # Your second mood
-    rgb.color = (255, 0, 0) # Your second colour
-
-happy() 
-
---- /code ---
-
---- /collapse ---
-
-[[[sharing-a-ground-pin]]]
-
 --- /task ---
 
 ### Connect your inputs
@@ -424,6 +396,33 @@ Code runs, but nothings happens:
 + Check that your inputs are connected correctly and that you used the correct pin in your code
 + Check the Thonny Shell for any messages about variables or functions not being defined, you might have forgotten to change the examples to match your code
 + Check your code carefully. You could add `print` statements to help you understand what is happening. 
++ Check that you have called your functions
+
+--- collapse ---
+
+---
+title: Call a function 
+---
+
+--- code ---
+---
+language: python
+filename: sensory-gadget.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 7
+---
+def happy(): # Your first mood
+    rgb.color = (0, 255, 0) # Your first colour
+
+def sad(): # Your second mood
+    rgb.color = (255, 0, 0) # Your second colour
+
+happy() 
+
+--- /code ---
+
+--- /collapse ---
 
 --- collapse ---
 
