@@ -80,7 +80,7 @@ Gather the components that you will need to make your sensory gadget. You will n
 
 --- task ---
 
-Connect your Raspberry Pi Pico to your computer and check that it works by blinking the on board LED.
+**Test:** Connect your Raspberry Pi Pico to your computer and check that it works by blinking the on board LED.
 
 Here is some example code for blinking the on board LED:
 

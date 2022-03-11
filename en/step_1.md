@@ -318,7 +318,7 @@ power.when_pressed = on
 --- /collapse ---
 
 **Digital Candle**
-The RGBLED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to another contact on the candle and stop the loop. After a while, the loop restarts.
+The RGBLED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to touch another contact on the candle and stop the loop. After a while, the loop restarts.
 
 ![Animation showing Mr C blowing out a digital Candle](images/candle.gif)
 
@@ -368,31 +368,6 @@ while True:
 
 --- /collapse ---
 
-**Marc Scotts example**
-Add description here...
-
-<video width="640" height="360" controls>
-<source src="images/filename" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
-</video>
-
---- collapse ---
----
-title: See inside
----
---- code ---
----
-language: python
-filename: 
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-
---- /code ---
-
---- /collapse ---
-
 --- /task ---
 
 --- /no-print ---
@@ -413,17 +388,12 @@ The bee's wings have kitchen foil on the back of them and when pressed down they
 
 **Picosaber**
 Pressing the button lights the blade of the saber and starts the buzzers making a humming sound. Turning the potentiometer changes the colour of the blade and pitch of the hum. Turning the potentiometer all the way down plays a 'power-down sound' then switches off the lights and buzzers.
-![IMage showing the handle and glowing blade of a home made lightsaber](images/picosaber.png)
+![desc](images/picosaber.png)
 
 **Digital Candle**
 The RGBLED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to another contact on the candle and stop the loop. After a while, the loop restarts.
 
-![Animation showing Mr C blowing out a digital Candle](images/candle.gif)
-
-**Marc Scotts example**
-Description
-![](images/image)
-
+![desc](images/candle.gif)
 
 --- /print-only ---
 
