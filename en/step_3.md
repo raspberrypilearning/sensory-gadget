@@ -120,14 +120,14 @@ def sad(): # Your second mood
 [[[single-buzzer-pin]]]
 [[[multiple-buzzer-pins]]]
 
-**Useful information**
+**Useful information about sound**
 
 [[[list-of-notes]]]
 [[[note-length]]]
 [[[frequency-numbers]]] 
 [[[sheet-to-notes]]]
 
-**Code samples**
+**Sound code samples**
 
 [[[play-single-note]]]
 [[[play-a-tune]]]
@@ -392,7 +392,7 @@ You can remove the tape later if you want to reuse the components.
 [[[debug-pico-hardware]]]
 [[[pico-debug-led]]]
 
-Code runs, but nothings happens:
+Code runs, but nothing happens:
 + Check that your inputs are connected correctly and that you used the correct pin in your code
 + Check the Thonny Shell for any messages about variables or functions not being defined, you might have forgotten to change the examples to match your code
 + Check your code carefully. You could add `print` statements to help you understand what is happening. 
