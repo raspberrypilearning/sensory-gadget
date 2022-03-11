@@ -21,27 +21,6 @@ You have built up some really useful skills. Here is a reminder to help you make
 
 [[[multiple-single-led-wiring]]] 
 
---- collapse ---
-
----
-title: Import LED from picozero
----
-
---- code ---
----
-language: python
-filename: sensory-gadget.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 1
----
-
-from picozero import LED
-
---- /code ---
-
---- /collapse ---
-
 [[[sing-led-pins]]]
 
 [[[multiple-single-led-pins]]]
@@ -97,27 +76,6 @@ def worried(): # Your second mood
 
 [[[rgb-wiring]]]
 
---- collapse ---
-
----
-title: Import the RGB LED
----
-
---- code ---
----
-language: python
-filename: sensory-gadget.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 1
----
-
-from picozero import RGBLED
-
---- /code ---
-
---- /collapse ---
-
 [[[rgb-led-pins]]]
 
 --- collapse ---
@@ -151,10 +109,24 @@ def sad(): # Your second mood
 [[[single-buzzer-wire]]]
 [[[stereo-buzzer-wiring]]]
 [[[earphones-wiring]]]
-<mark>Add import statements for a speaker</mark>
 [[[single-buzzer-pin]]]
 [[[multiple-buzzer-pins]]]
-<mark>Add sample code for a speaker</mark>
+
+**Useful information**
+
+[[[list-of-notes]]]
+[[[note-length]]]
+[[[frequency-numbers]]] 
+[[[sheet-to-notes]]]
+
+**Code samples**
+
+[[[play-single-note]]]
+[[[play-a-tune]]]
+[[[notes-in-loop]]]
+[[[pico-sound-frequency]]]
+[[[whitenoise-drum-beat]]]
+[[[interrupt-tune]]]
 
 --- collapse ---
 
@@ -451,7 +423,9 @@ You can remove the tape later if you want to reuse the components.
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
-[pico-common-code-errors]
+[[[debug-pico-code]]] 
+[[[debug-pico-hardware]]]
+[[[pico-debug-led]]]
 
 Code runs, but nothings happens:
 + Check that your inputs are connected correctly and that you used the correct pin in your code
