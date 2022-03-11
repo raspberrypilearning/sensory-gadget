@@ -9,9 +9,17 @@ Now it's time to make your sensory gadget.
 </div>
 </div>
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+Your sensory gadget is your own design and may have a **different combination** of components to the ones suggested in the diagrams below. 
+
+If a pin is already in use then you will need to select a different pin and ground to use. Make sure that you **note down** which pin is in use for when you are writing your code. 
+</p>
+
 You have built up some really useful skills. Here is a reminder to help you make your sensory gadget: 
 
 ### Connect your outputs
+
+[[[sharing-a-ground-pin]]]
 
 --- task ---
 
@@ -155,19 +163,6 @@ happy()
 --- /collapse ---
 
 [[[sharing-a-ground-pin]]]
-
-### Pin already in use
-
---- collapse ---
----
-title: Adding a component where the pin is already in use
----
-
-Your sensory gadget is your own design and may have a **different combination** of components to the ones suggested in the diagrams above. 
-
-If a pin is already in use then you will need to select a different pin and ground to use. Make sure that you **note down** which pin is in use for when you are writing your code. 
-
---- /collapse ---
 
 --- /task ---
 
@@ -368,8 +363,6 @@ while True:
 --- /code ---
 
 --- /collapse ---
-
-[[[sharing-a-ground-pin]]]
 
 --- /task ---
 
