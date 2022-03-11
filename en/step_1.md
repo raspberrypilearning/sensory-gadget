@@ -17,7 +17,7 @@ You will:
 
 ### Try it
 
-Watch the video below. Which senses are being stimulated? What output occurs when each input is used?
+Watch the video below. How is the tool being used for communication? What inputs and outputs have been used?
 
 **An assistive gadget**
 A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button which alerts their carer.
