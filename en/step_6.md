@@ -19,7 +19,7 @@ Here are some other ideas you could try:
 
 --- no-print ---
 
-**MARC SCOTT EXAMPLE**
+**Upgrade example**
 xxxxx. 
 
 <video width="640" height="360" controls>
