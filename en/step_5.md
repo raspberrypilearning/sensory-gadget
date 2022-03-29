@@ -26,7 +26,7 @@ Your sensory gadget could also:
 
 --- task ---
 
-Take ergonomics like user comfort into consideration
+Take ergonomics such as user comfort into consideration
 
 --- /task ---
 
