@@ -5,14 +5,14 @@
 Now it's time to make your sensory gadget.  
 </div>
 <div>
-![Three images on a box showing eating, drinking and playing. One of the images is backlit by an LED.](images/communication-tool.PNG){:width="300px"}
+![Three images on a box showing eating, drinking, and playing. One of the images is backlit by an LED.](images/communication-tool.PNG){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 Your sensory gadget is your own design and may have a **different combination** of components to the ones suggested in the diagrams below. 
 
-If a pin is already in use then you will need to select a different pin and ground to use. Make sure that you **note down** which pin is in use for when you are writing your code. 
+If a pin is already in use, then you will need to select a different pin and ground to use. Make sure that you **note down** which pin is in use for when you are writing your code. 
 </p>
 
 You have built up some really useful skills. Here is a reminder to help you make your sensory gadget: 
@@ -23,7 +23,7 @@ You have built up some really useful skills. Here is a reminder to help you make
 
 --- task ---
 
-### Single colour LEDs
+### Single-colour LEDs
 
 [[[single-led-wiring]]]
 
@@ -180,7 +180,7 @@ title: Call a different function when each button is pressed
 
 You can have multiple buttons that each call a different function when they are pressed. 
 
-Make sure you use the function names from your project and just use the name of the function, do not call it by adding brackets.
+Make sure you use the function names from your project and just use the name of the function; do not call it by adding brackets.
 
 --- code ---
 ---
@@ -217,20 +217,20 @@ line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-option = 0 # store the current option
+option = 0 # Store the current option
 
-def choice(): # call the next function and update the option
+def choice(): # Call the next function and update the option
     global option
     if option == 0:
-        energised() # your first mood
+        energised() # Your first mood
     elif option == 1:
-        calm()      # your second mood
+        calm()      # Your second mood
     elif option == 2:
-        focused()   # your third mood
+        focused()   # Your third mood
     elif option == 3:    
         rgb.off()
     
-    # move to the next option
+    # Move to the next option
     if option == 3:
         option = 0
     else:
@@ -304,9 +304,9 @@ from picozero import Pot
 title: Call a function based on the value of the potentiometer
 ---
 
-If you are using a potentiometer to control outputs then you will need to divide up the dial into equal sections. 
+If you are using a potentiometer to control outputs, then you will need to divide up the dial into equal sections. 
 
-You can use `dial.percent` to get a value between 0 and 1 from the potentiometer. If you have 5 moods then you can check whether the value is less than 20, 40, 60, 80 or 100. If you have 3 moods then you can check whether the value is less that 33, 66 or 100. 
+You can use `dial.percent` to get a value between 0 and 1 from the potentiometer. If you have five moods, then you can check whether the value is less than 20, 40, 60, 80, or 100. If you have three moods, then you can check whether the value is less than 33, 66, or 100. 
 
 --- code ---
 ---
@@ -360,7 +360,7 @@ Use the **debug** task at the bottom of this step if you come across any problem
 title: Use tape to hold jumper wires in place
 ---
 
-Use sticky tape or electrical tape to hold jumper wires in place so that your device stays together. 
+Use sticky tape or electrical tape to hold the jumper wires in place so that your device stays together. 
 
 You can remove the tape later if you want to reuse the components. 
 
@@ -380,7 +380,7 @@ You can remove the tape later if you want to reuse the components.
 
 --- task ---
 
-**Test:** Show someone else your project and get their feedback. Do you want make any changes to your book? 
+**Test:** Show someone else your project and get their feedback. Do you want make any changes to your gadget? 
 
 --- /task ---
 
@@ -393,10 +393,10 @@ You can remove the tape later if you want to reuse the components.
 [[[pico-debug-led]]]
 
 Code runs, but nothing happens:
-+ Check that your inputs are connected correctly and that you used the correct pin in your code
-+ Check the Thonny Shell for any messages about variables or functions not being defined, you might have forgotten to change the examples to match your code
++ Check that your inputs are connected correctly and that you used the correct pin in your code.
++ Check the Thonny Shell for any messages about variables or functions not being defined; you might have forgotten to change the examples to match your code.
 + Check your code carefully. You could add `print` statements to help you understand what is happening. 
-+ Check that you have called your functions
++ Check that you have called your functions.
 
 --- collapse ---
 
@@ -440,7 +440,7 @@ Check that the pins in your code match the pins your LED is connected to.
 title: My RGB LED show the wrong colour
 ---
 
-Check your code to make sure that your colour values are in the right order. Use the ['RGB Colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.
+Check your code to make sure that your colour values are in the right order. Use the ['RGB colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.
 
 --- /collapse ---
 
@@ -478,7 +478,7 @@ line_highlights:
 sound = [ [523, 0.1], [None, 0.1], [523, 0.4] ]
 
 def annoying_sound():
-    speaker.play(sound, wait=False) # don't delay the main code 
+    speaker.play(sound, wait=False) # Don't delay the main code 
     
 button.when_pressed = annoying_sound
 
@@ -497,7 +497,7 @@ Now that you have crafted your sensory gadget, you might need extra-long wires t
 
 --- collapse ---
 ---
-title: My wires or components wont stay in place
+title: My wires or components won't stay in place
 ---
 
 Some connections are stronger than others so you might find that you need to use tape to keep your wires connected to your components or to hold your components in place on your gadget. Look at the instructions above to 'secure wires and components using tape'.
