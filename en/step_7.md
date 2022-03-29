@@ -2,7 +2,7 @@
 
 You have reached the end of the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path!
 
-Now you can bring all your ideas to life and use the Raspberry pi Pico to make more cool stuff. If you need a reminder of what you have learned, you can go to the [Introduction to the Raspberry Pi Pico guide](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico).
+Now you can bring all your ideas to life and use the Raspberry Pi Pico to make more cool stuff. If you need a reminder of what you have learnt, you can go to the [Introduction to the Pico guide](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico).
 
 --- collapse ---
 ---
