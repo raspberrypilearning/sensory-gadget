@@ -20,7 +20,7 @@ You will:
 Watch the video below. How is the tool being used for communication? What inputs and outputs have been used?
 
 **An assistive gadget**
-A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button which alerts their carer.
+A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button that alerts their carer.
 
 <video width="640" height="360" controls>
 <source src="images/communication-tool.mp4" type="video/mp4">
@@ -51,9 +51,9 @@ speaker = Speaker(1)
 choose = Button(18)
 confirm = Button(22)
 
-option = 0 # store the current option
+option = 0 # Store the current option
 
-def choice(): # call the next function and update the option
+def choice(): # Call the next function and update the option
     global option
     if option == 0:
         eat.on()
@@ -95,7 +95,7 @@ confirm.when_pressed = sound_buzzer
 --- print-only ---
 
 **An assistive gadget**
-A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button which alerts their carer.
+A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button that alerts their carer.
 
 ![desc](images/communication-tool.PNG)
 
@@ -106,7 +106,7 @@ A user can select an option to let their carer know of their current need. Once 
 ### PROJECT BRIEF: Project title
 <hr style="border-top: 2px solid black;">
 
-Brief explanation of aims of project. 
+Brief explanation of the aims of the project. 
 
 Your sensory gadget should:
 + Have multiple different kinds of input
@@ -174,7 +174,7 @@ button.when_pressed = change_option
 --- /collapse ---
 
 **The buzzy bee**
-The bee's wings have kitchen foil on the back of them and when pressed down they connect to another piece of foil on the card - this makes a buzzer play a note. Each wing plays a different sound. A potentiometer controls a blue LED on the bee's tail.
+The bee's wings have kitchen foil on the back of them and when pressed down they connect to another piece of foil on the card — this makes a buzzer play a note. Each wing plays a different sound. A potentiometer controls a blue LED on the bee's tail.
 
 <video width="640" height="360" controls>
 <source src="images/buzy-bee.mp4" type="video/mp4">
@@ -244,29 +244,29 @@ from time import sleep
 from picozero import Button, RGBLED, Pot, Speaker
 from random import randint
 
-led = RGBLED(13,14,15) # setup RGBLED
-led2 = RGBLED(10,11,12) # setup other RGBLED - the more the brighter!
+led = RGBLED(13,14,15) # Set up RGBLED
+led2 = RGBLED(10,11,12) # Set up other RGBLED — the more, the brighter!
 
-hum = Speaker(5) # setup passive buzzer for hum/start/stop sounds
+hum = Speaker(5) # Set up passive buzzer for hum/start/stop sounds
 
-power = Button(17) # setup button to turn on saber
+power = Button(17) # Set up button to turn on saber
 
-dial = Pot(0) # setup Potentiometer to change blade colour and turn off
+dial = Pot(0) # Set up potentiometer to change blade colour and turn off
 
-# Turn off lights and make 'power down' sound
+# Turn off lights and make 'power-down' sound
 def off():
-    for i in range(400): # white noise loop 1 sec
-        tone = randint(4000,6000) # pick a random number 1k-5k
-        hum.play(tone, 0.001) # play tone for 1/1000th sec
-    for i in range(200): # white noise loop 1 sec
-        tone = randint(2000,4000) # pick a random number 1k-5k
-        hum.play(tone, 0.001) # play tone for 1/1000th sec
-    for i in range(200): # white noise loop 1 sec
-        tone = randint(1000,3000) # pick a random number 1k-5k
-        hum.play(tone, 0.001) # play tone for 1/1000th sec
-    for i in range(200): # white noise loop 1 sec
-        tone = randint(50,1000) # pick a random number 1k-5k
-        hum.play(tone, 0.001) # play tone for 1/1000th sec
+    for i in range(400): # White noise loop 1 second
+        tone = randint(4000,6000) # Pick a random number between 4000 and 6000
+        hum.play(tone, 0.001) # Play tone for 1/1000th second
+    for i in range(200): # White noise loop 1 second
+        tone = randint(2000,4000) # Pick a random number between 2000 and 4000
+        hum.play(tone, 0.001) # Play tone for 1/1000th second
+    for i in range(200): # White noise loop 1 second
+        tone = randint(1000,3000) # Pick a random number between 1000 and 3000
+        hum.play(tone, 0.001) # Play tone for 1/1000th second
+    for i in range(200): # White noise loop 1 second
+        tone = randint(50,1000) # Pick a random number between 50 and 1000
+        hum.play(tone, 0.001) # Play tone for 1/1000th second
     led.color = (0,0,0)
     led2.color = (0,0,0)
     hum.off()
@@ -274,42 +274,42 @@ def off():
 
 # Make lightsaber start sound then turn on lights
 def on():
-    for i in range(200): # white noise loop 0.2 sec
-        tone = randint(50,1000) # pick a random number 50-1k
-        hum.play(tone, 0.001) # play tone for 1/1000th sec
-    for i in range(200): # white noise loop 0.2 sec
-        tone = randint(1000,3000) # pick a random number 1k-3k
-        hum.play(tone, 0.001) # play tone for 1/1000th sec
-    for i in range(200): # white noise loop 0.2 sec
-        tone = randint(2000,4000) # pick a random number 2k-4k
-        hum.play(tone, 0.001) # play tone for 1/1000th sec
-    for i in range(400): # white noise loop 0.4 sec
-        tone = randint(3000,5000) # pick a random number 3k-5k
-        hum.play(tone, 0.001) # play tone for 1/1000th sec
-    while True: # forever loop checking the dial reading to set colour and change hum sound
-        if dial.value >= 0.8: # highest setting on dial - 5
-            led.color = (255,255,255) # white
+    for i in range(200): # White noise loop 0.2 second
+        tone = randint(50,1000) # Pick a random number between 50 and 1000
+        hum.play(tone, 0.001) # Play tone for 1/1000th second
+    for i in range(200): # White noise loop 0.2 second
+        tone = randint(1000,3000) # Pick a random number between 1000 and 3000
+        hum.play(tone, 0.001) # Play tone for 1/1000th second
+    for i in range(200): # White noise loop 0.2 second
+        tone = randint(2000,4000) # Pick a random number between 2000 and 4000
+        hum.play(tone, 0.001) # Play tone for 1/1000th second
+    for i in range(400): # White noise loop 0.4 second
+        tone = randint(3000,5000) # Pick a random number between 3000 and 5000
+        hum.play(tone, 0.001) # Play tone for 1/1000th second
+    while True: # Forever loop checking the dial reading to set colour and change hum sound
+        if dial.value >= 0.8: # Highest setting on dial - 5
+            led.color = (255,255,255) # White
             led2.color = (255,255,255)
             hum.play(90)
-        elif dial.value >= 0.6: # high setting on dial - 4
-            led.color = (255,0,255) # purple blade
+        elif dial.value >= 0.6: # High setting on dial - 4
+            led.color = (255,0,255) # Purple blade
             led2.color = (255,0,255)
             hum.play(80)
-        elif dial.value >= 0.4: # middle setting on dial - 3
-            led.color = (0,0,255) # blue blade
+        elif dial.value >= 0.4: # Middle setting on dial - 3
+            led.color = (0,0,255) # Blue blade
             led2.color = (0,0,255)
             hum.play(70)
-        elif dial.value >= 0.2: # low setting on dial - 2
-            led.color = (0,255,0) # green blade
+        elif dial.value >= 0.2: # Low setting on dial - 2
+            led.color = (0,255,0) # Green blade
             led2.color = (0,255,0)
             hum.play(60)
-        elif dial.value >= 0.01: # lowest setting on dial (above 0.01) - 1
-            led.color = (255,0,0) # red blade
+        elif dial.value >= 0.01: # Lowest setting on dial (above 0.01) - 1
+            led.color = (255,0,0) # Red blade
             led2.color = (255,0,0)
             hum.play(50)
-        else: # if dial turned all the way down - 0
-            off() # run off function
-            break # leave the loop
+        else: # If dial turned all the way down - 0
+            off() # Run off function
+            break # Leave the loop
     
 
 power.when_pressed = on
@@ -317,10 +317,10 @@ power.when_pressed = on
 
 --- /collapse ---
 
-**Digital Candle**
-The RGBLED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to touch another contact on the candle and stop the loop. After a while, the loop restarts.
+**Digital candle**
+The RGB LED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to touch another contact on the candle and stop the loop. After a while, the loop restarts.
 
-![Animation showing Mr C blowing out a digital Candle](images/candle.gif)
+![Animation showing Mr C blowing out a digital candle.](images/candle.gif)
 
 --- collapse ---
 ---
@@ -339,25 +339,25 @@ from picozero import RGBLED, Switch
 from time import sleep
 from random import randint
 
-# State which pins the components are placed on the Pico
+# State which pins the components are attached to on the Pico
 led = RGBLED(13, 14, 15)
 trigger = Switch(18)
 
 
-def light(): # flickering flame loop
-      red = randint(125,255) # mostly red
-      yellow = (red - 125) # never more than red
+def light(): # Flickering flame loop
+      red = randint(125,255) # Mostly red
+      yellow = (red - 125) # Never more than red
       delay = randint(0,100)
-      led.color  =(red, yellow, 0)
+      led.color = (red, yellow, 0)
       sleep(delay/1000)
 
 
-def dark(): # no flame
+def dark(): # No flame
    led.off()
-   sleep(2) # dark time before reset
+   sleep(2) # Dark time before reset
 
 
-# loop to check if switch is closed
+# Loop to check if switch is closed
 while True: 
     if trigger.is_closed:
         dark()
@@ -375,7 +375,7 @@ while True:
 --- print-only ---
 
 **An assistive gadget**
-A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button which alerts their carer.
+A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button that alerts their carer.
 ![desc](images/communication-tool.PNG)
 
 **The night sky**
@@ -383,15 +383,15 @@ Tiny holes have been poked through a piece of black card to make a starry night 
 ![desc](images/night-sky.PNG)
 
 **The buzzy bee**
-The bee's wings have kitchen foil on the back of them and when pressed down they connect to another piece of foil on the card - this makes a buzzer play a note. Each wing plays a different sound. A potentiometer controls a blue LED on the bee's tail.
+The bee's wings have kitchen foil on the back of them and when pressed down they connect to another piece of foil on the card — this makes a buzzer play a note. Each wing plays a different sound. A potentiometer controls a blue LED on the bee's tail.
 ![desc](images/buzy-bee.png)
 
 **Picosaber**
 Pressing the button lights the blade of the saber and starts the buzzers making a humming sound. Turning the potentiometer changes the colour of the blade and pitch of the hum. Turning the potentiometer all the way down plays a 'power-down sound' then switches off the lights and buzzers.
 ![desc](images/picosaber.png)
 
-**Digital Candle**
-The RGBLED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to another contact on the candle and stop the loop. After a while, the loop restarts.
+**Digital candle**
+The RGB LED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to another contact on the candle and stop the loop. After a while, the loop restarts.
 
 ![desc](images/candle.gif)
 
