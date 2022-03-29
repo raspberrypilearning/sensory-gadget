@@ -131,9 +131,9 @@ def sad(): # Your second mood
 
 [[[play-single-note]]]
 [[[play-a-tune]]]
-[[[notes-in-loop]]]
 [[[pico-sound-frequency]]]
 [[[whitenoise-drum-beat]]]
+[[[notes-in-loop]]]
 [[[interrupt-tune]]]
 
 --- /task ---
@@ -454,6 +454,35 @@ Your code was working before you assembled your sensory gadget. It is unlikely t
 + Check that your components have been rewired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
 + Look for any loose connections and secure with tape
 + Check that you haven't covered any conductive elements of your circuit with sticky tape or glue.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The main tune delays when I press a button
+---
+
+When you use an event such as `when_pressed` to run a function, that function will run until it is finished and it will stop other code from running. 
+
+If you want to start a tune from an event then you can use `play` with `wait=False`. The function will finish and the tune will continue playing without delaying the code running in your main code.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+
+sound = [ [523, 0.1], [None, 0.1], [523, 0.4] ]
+
+def annoying_sound():
+    speaker.play(sound, wait=False) # don't delay the main code 
+    
+button.when_pressed = annoying_sound
+
+--- /code ---
 
 --- /collapse ---
 
