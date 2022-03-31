@@ -394,7 +394,7 @@ You can remove the tape later if you want to reuse the components.
 
 Code runs, but nothing happens:
 + Check that your inputs are connected correctly and that you used the correct pin in your code.
-+ Check the Thonny Shell for any messages about variables or functions not being defined; you might have forgotten to change the examples to match your code.
++ Check the Thonny shell for any messages about variables or functions not being defined; you might have forgotten to change the examples to match your code.
 + Check your code carefully. You could add `print` statements to help you understand what is happening. 
 + Check that you have called your functions.
 
@@ -451,9 +451,9 @@ title: My sounds are not playing, or not playing as I expected
 
 Your code was working before you assembled your sensory gadget. It is unlikely that your code will be broken at this stage. The majority of bugs will be from wiring and components. 
 
-+ Check that your components have been rewired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
++ Check that your components have been wired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
 + Look for any loose connections and secure with tape
-+ Check that you haven't covered any conductive elements of your circuit with sticky tape or glue.
++ Check that you haven't covered any conductive elements of your circuit with sticky tape or glue
 
 --- /collapse ---
 
