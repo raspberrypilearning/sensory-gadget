@@ -21,7 +21,7 @@ Here are some other ideas you could try:
 
 **The Night Sky**
 
-The original Night Sky project used a single RGBLED and a piece of card with holes poked through it to simulate a night sky using projected light through the pinholes, which could be turned on and off by a button. 
+The original **Night Sky** project used a single RGBLED and a piece of card with holes poked through it to simulate a starry sky using projected light, which could be turned on and off by a button. 
 
 This upgraded version of the project adds another RGBLED to increase the brightness, and adds a diffuser for the LEDs to spread the light around more widely. 
 
@@ -38,7 +38,7 @@ Your browser does not support WebM video, try FireFox or Chrome
 
 **The Night Sky**
 
-The original Night Sky project used a single RGBLED and a piece of card with holes poked through it to simulate a night sky using projected light through the pinholes, which could be turned on and off by a button. 
+The original **Night Sky** project used a single RGBLED and a piece of card with holes poked through it to simulate a starry sky using projected light, which could be turned on and off by a button.  
 
 This upgraded version of the project adds another RGBLED to increase the brightness, and adds a diffuser for the LEDs to spread the light around more widely. 
 
