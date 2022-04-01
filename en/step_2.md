@@ -1,8 +1,14 @@
 ## Your idea
 
-Use this step to plan your sensory gadget. You can plan by just thinking; tinkering; drawing or writing; or however you like! 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Use this step to plan your sensory gadget. You can plan by just thinking, tinkering, drawing or writing, or however you like!  
+</div>
+<div>
+![A drawing of a bee with buzzers and a potentiometer attached.](images/buzy-bee.png){:width="300px"}
+</div>
+</div>
 
-![](images/image.png)
 
 ### Why are you making your sensory gadget?
 
@@ -11,7 +17,7 @@ Use this step to plan your sensory gadget. You can plan by just thinking; tinker
 Think about the purpose of your sensory gadget. 
 
 It could be:
-+ For a younger sibling to learn about sights, and sounds
++ For a younger sibling to learn about sights and sounds
 + A way of relieving tension through pressing buttons and hearing sounds
 + A communication tool to help people express their needs 
 
@@ -47,7 +53,7 @@ You gadget could:
 + Use a dial input using a potentiometer
 + Play a specific sound
 + Play a tune, or several tunes
-+ Use single coloured LEDs
++ Use single-coloured LEDs
 + Use an RGB LED
 
 --- /task ---
@@ -59,8 +65,8 @@ Think about what your sensory gadget will look like.
 It could:
 
 + Be based on a sensory gadget that already exists like a fidget cube or popper
-+ Have a theme that is based on your favourite comic, tv show or song
-+ Be a crafted enclosure made from an old cardboard box, a fabric material or a plastic container
++ Have a theme that is based on your favourite comic, TV show, or song
++ Be a crafted enclosure made from an old cardboard box, a fabric material, or a plastic container
 
 --- /task ---
 
@@ -68,15 +74,15 @@ It could:
 
 --- task ---
 
-Gather the components that you will need to make your sensory gadget. You will need inputs, outputs, jumper wires and your Raspberry Pi Pico.
+Gather the components that you will need to make your sensory gadget. You will need inputs, outputs, jumper wires, and your Raspberry Pi Pico.
 
 --- /task ---
 
 --- task ---
 
-Connect your Raspberry Pi Pico to your computer and check that it works by blinking the on board LED.
+**Test:** Connect your Raspberry Pi Pico to your computer and check that it works by blinking the onboard LED.
 
-Here is some example code for blinking the on board LED:
+Here is some example code for blinking the onboard LED:
 
 --- code ---
 ---
@@ -102,4 +108,4 @@ If you have not already prepared your inputs and outputs, and need to remind you
 
 --- /task ---
 
---- save ---
+
