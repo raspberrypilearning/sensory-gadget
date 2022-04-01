@@ -393,7 +393,7 @@ Pressing the button lights the blade of the saber and starts the buzzers making 
 **Digital candle**
 The RGB LED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to another contact on the candle and stop the loop. After a while, the loop restarts.
 
-![desc](images/candle.gif)
+![desc](images/candle.PNG)
 
 --- /print-only ---
 
