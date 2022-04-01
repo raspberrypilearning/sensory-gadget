@@ -1,6 +1,6 @@
 # Upgrade
 
-If you have time you can upgrade your project.
+If you have time, you can upgrade your project.
 
 --- task ---
 
@@ -41,7 +41,7 @@ xxxx.
 --- task ---
 
 Take a look at our 
-['Sensory gadget - Community'](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery to see projects created by our community members.
+[Sensory gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery to see projects created by our community members.
 
 --- /task ---
 
