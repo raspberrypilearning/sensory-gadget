@@ -1,76 +1,57 @@
-## Reflect
+# Upgrade
 
-Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
-
-Does your sensory gadget:
+If you have time, you can upgrade your project.
 
 --- task ---
 
-Have multiple different kinds of input?
+You can look inside each of the examples in the [Introduction](.) to see the how the code works and get more inspiration.
 
 --- /task ---
 
 --- task ---
 
-Have multiple different outputs?
+Here are some other ideas you could try:
++ Do some testing with your audience then improve usability
++ Add more input or output components
++ Continue to craft your device to improve the structure or design
 
 --- /task ---
 
---- task ---
+--- no-print ---
 
-Appeal to the user and is it robust enough to be used?
+**The Night Sky**
 
---- /task ---
+The original **Night Sky** project used a single RGBLED and a piece of card with holes poked through it to simulate a starry sky using projected light, which could be turned on and off by a button. 
 
-Your sensory gadget could also:
+This upgraded version of the project adds another RGBLED to increase the brightness, and adds a diffuser for the LEDs to spread the light around more widely. 
 
---- task ---
+The card with holes has been replaced by a lasercut dodecahedron, with the logos of popular superheroes used as cutouts to project the light into the room. 
 
-Take ergonomics such as user comfort into consideration
+<video width="640" height="360" controls>
+<source src="images/PicoUpgrade.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
 
---- /task ---
+--- /no-print ---
 
---- task ---
+--- print-only ---
 
-Reset after user input or after a set amount of time 
+**The Night Sky**
 
---- /task ---
+The original **Night Sky** project used a single RGBLED and a piece of card with holes poked through it to simulate a starry sky using projected light, which could be turned on and off by a button. 
 
---- task ---
+This upgraded version of the project adds another RGBLED to increase the brightness, and adds a diffuser for the LEDs to spread the light around more widely. 
 
-Connect to a specific theme
+The card with holes has been replaced by a lasercut dodecahedron, with the logos of popular superheroes used as cutouts to project the light into the room. 
 
---- /task ---
+![Image showing a spider cutout from a pentagonal piece of wood, part of a dodecahedral lamp.](images/upgrade_lamp.png){:width="300px"}
 
-Reflecting about how you made your sensory gadget will help you in your future projects.
-
-Answer the questions below by drawing, writing, typing in a document, talking to someone, or in your own creative way that works best for you.
-
---- task ---
-
-How did you get your ideas? 
-
---- /task ---
+--- /print-only ---
 
 --- task ---
 
-What cool new thing(s) did you learn?
-
---- /task ---
-
---- task ---
-
-Mistakes are powerful. What mistakes did you make and how did they help you create your sensory gadget?
-
---- /task ---
-
-### Now you are the creator of your own sensory gadget!
-
-Take a moment to celebrate what you have made.
-
---- task ---
-
-Where will you take your new powers? What will you make next?
+Take a look at our 
+[Sensory gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery to see projects created by our community members.
 
 --- /task ---
 

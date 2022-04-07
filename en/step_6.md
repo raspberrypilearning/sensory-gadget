@@ -1,19 +1,14 @@
-# Upgrade
+## Share
 
-If you have time, you can upgrade your project.
-
---- task ---
-
-You can look inside each of the examples in the [Introduction](.) to see the how the code works and get more inspiration.
-
---- /task ---
+If you are in a club, why not share your project with friends? You could also show your family how your project works.
 
 --- task ---
 
-Here are some other ideas you could try:
-+ Do some testing with your audience then improve usability
-+ Add more input or output components
-+ Continue to craft your device to improve the structure or design
+Inspire the Raspberry Pi Foundation community with your project!
+
+To submit a video of your gadget to our [Sensory gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}. Remember to protect your identity by making sure that people do not appear in your video.
+
+![A screenshot of our Community Gallery page for the Introduction to Pico path showing galleries for mood indicator, sound machine, and sensory gadget projects.](images/community-galleries.png)
 
 --- /task ---
 
@@ -54,5 +49,3 @@ Take a look at our
 [Sensory gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery to see projects created by our community members.
 
 --- /task ---
-
-
