@@ -121,7 +121,7 @@ A user can select an option to let their carer know of their current need. Once 
 
 <div style="border-top: 15px solid #f3524f; background-color: whitesmoke; margin-bottom: 20px; padding: 10px;">
 
-### PROJECT BRIEF: Project title
+### PROJECT BRIEF: Sensory gadget
 <hr style="border-top: 2px solid black;">
 
 Brief explanation of the aims of the project. 
