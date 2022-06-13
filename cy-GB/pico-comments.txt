@@ -1,0 +1,99 @@
+Store the current option
+
+Call the next function and update the option
+
+Set up RGBLED
+
+Set up other RGBLED — the more, the brighter!
+
+Set up passive buzzer for hum/start/stop sounds
+
+Set up button to turn on saber
+
+Set up potentiometer to change blade colour and turn off
+
+Turn off lights and make 'power-down' sound
+
+White noise loop 1 second
+
+Pick a random number between 4000 and 6000
+
+Play tone for 1/1000th second
+
+Pick a random number between 2000 and 4000
+
+Pick a random number between 1000 and 3000
+
+Pick a random number between 50 and 1000
+
+Make lightsaber start sound then turn on lights
+
+White noise loop 0.2 second
+
+White noise loop 0.4 second
+
+Pick a random number between 3000 and 5000
+
+Forever loop checking the dial reading to set colour and change hum sound
+
+Highest setting on dial - 5
+
+White
+
+Highest setting on dial - 4
+
+Purple blade
+
+Highest setting on dial - 3
+
+Blue blade
+
+Highest setting on dial - 2
+
+Green blade
+
+Lowest setting on dial (above 0.01) - 1
+
+Red blade
+
+If dial turned all the way down - 0
+
+Run off function
+
+Leave the loop
+
+State which pins the components are attached to on the Pico
+
+Flickering flame loop
+
+Mostly red
+
+Never more than red
+
+No flame
+
+Dark time before reset
+
+Loop to check if switch is closed
+
+Your mood
+
+Turn on
+
+Your first mood
+
+Turn off
+
+Your second mood
+
+Your first colour
+
+Your second colour
+
+Your third mood
+
+Move to the next option
+
+Call the choice function when the button is pressed
+
+Don't delay the main code
