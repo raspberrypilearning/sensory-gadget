@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make a fidget toy or sensory gadget. Your gadget will need to meet the **project brief**. 
 
@@ -35,7 +35,7 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 --- task ---
 
-### Try it
+### Discover ▶️
 
 Watch the video below. How is the tool being used for communication? What inputs and outputs have been used?
 
@@ -146,7 +146,7 @@ Your sensory gadget could:
 
 --- no-print ---
 
-### Get inspiration
+### Get ideas 💭
 
 --- task ---
 
