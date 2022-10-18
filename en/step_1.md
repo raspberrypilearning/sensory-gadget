@@ -128,8 +128,7 @@ A user can select an option to let their carer know of their current need. Once 
 
 ### PROJECT BRIEF: Sensory gadget
 <hr style="border-top: 2px solid black;">
-
-Brief explanation of the aims of the project. 
+Make a sensory gadget that people will want to use.
 
 Your sensory gadget should:
 + Have multiple different kinds of input
