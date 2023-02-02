@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make a fidget toy or sensory gadget. Your gadget will need to meet the **project brief**.
 
@@ -19,6 +19,8 @@ To complete this project you will need:
 
 You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
 + A variety of electronic components and jumper leads
@@ -30,10 +32,13 @@ You can purchase all the required hardware for this project and the other projec
 
 [[[change-theme-thonny]]]
 
++ picozero - you will need to set up picozero on your Raspberry Pi Pico
+
+[[[set-up-picozero]]]
 
 --- task ---
 
-### Try it
+### Discover ▶️
 
 Watch the video below. How is the tool being used for communication? What inputs and outputs have been used?
 
@@ -94,8 +99,7 @@ choose.when_pressed = choice confirm.when_pressed = sound_buzzer --- /code ---
 
 ### PROJECT BRIEF: Sensory gadget
 <hr style="border-top: 2px solid black;">
-
-Brief explanation of the aims of the project. 
+Make a sensory gadget that people will want to use.
 
 Your sensory gadget should:
 + Have multiple different kinds of input
@@ -115,7 +119,7 @@ Your sensory gadget could:
 
 --- no-print ---
 
-### Get inspiration
+### Get ideas 💭
 
 --- task ---
 
