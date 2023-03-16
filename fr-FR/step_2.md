@@ -1,42 +1,42 @@
-## Your idea
+## Ton idée
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Use this step to plan your sensory gadget. You can plan by just thinking, tinkering, drawing or writing, or however you like!  
+Utilise cette étape pour planifier ton gadget sensoriel. Tu peux planifier simplement en pensant, en bricolant, en dessinant ou en écrivant, ou comme bon te semble !  
 </div>
 <div>
-![A drawing of a bee with buzzers and a potentiometer attached.](images/buzy-bee.png){:width="300px"}
+![Un dessin d'abeille avec des buzzers et un potentiomètre attaché.](images/buzy-bee.png){:width="300px"}
 </div>
 </div>
 
-### Why are you making your sensory gadget?
+### Pourquoi fabriques-tu ton gadget sensoriel ?
 
 --- task ---
 
-Think about the purpose of your sensory gadget.
+Réfléchis à l'objectif de ton gadget sensoriel.
 
-It could be:
-+ For a younger sibling to learn about sights and sounds
-+ A way of relieving tension through pressing buttons and hearing sounds
-+ A communication tool to help people express their needs
+Ça pourrait être :
++ Pour qu'un petit frère ou une petite sœur apprenne à connaître les images et les sons
++ Un moyen de soulager la tension en appuyant sur des boutons et en entendant des sons
++ Un outil de communication pour aider les gens à exprimer leurs besoins
 
 --- /task ---
 
-### Who is it for?
+### À qui s'adresse-t-il ?
 
 --- task ---
 
-Think about who you will make your sensory gadget for (your **audience**).
+Pense à la personne pour laquelle tu vas fabriquer ton gadget sensoriel (ton **public**).
 
-It could be for a friend, for a family member, for a school class, for people who share a hobby, for fans of a TV programme or musician, or just for yourself.
+Cela peut être pour un ami, pour un membre de la famille, pour une classe scolaire, pour des personnes qui partagent un passe-temps, pour des fans d'une émission télévisée ou d'un musicien, ou tout simplement pour toi-même.
 
 --- /task ---
 
-### What features will your gadget have?
+### Quelles fonctionnalités ton gadget aura-t-il ?
 
 --- task ---
 
-Think about how many components your gadget will need.
+Pense au nombre de composants dont ton gadget aura besoin.
 
 [[[pico-limitations]]]
 
@@ -44,44 +44,44 @@ Think about how many components your gadget will need.
 
 --- task ---
 
-Think about the types of inputs and outputs you will have.
+Pense aux types d'entrées et de sorties que tu auras.
 
-You gadget could:
-+ Have push buttons for inputs
-+ Use crafted switches
-+ Use a dial input using a potentiometer
-+ Play a specific sound
-+ Play a tune, or several tunes
-+ Use single-coloured LEDs
-+ Use an RGB LED
-
---- /task ---
-
---- task ---
-
-Think about what your sensory gadget will look like.
-
-It could:
-
-+ Be based on a sensory gadget that already exists like a fidget cube or popper
-+ Have a theme that is based on your favourite comic, TV show, or song
-+ Be a crafted enclosure made from an old cardboard box, a fabric material, or a plastic container
-
---- /task ---
-
-### Get started
-
---- task ---
-
-Gather the components that you will need to make your sensory gadget. You will need inputs, outputs, jumper wires, and your Raspberry Pi Pico.
+Ton gadget pourrait :
++ Avoir des boutons poussoirs pour les entrées
++ Utiliser des interrupteurs fabriqués
++ Utiliser une entrée à cadran à l'aide d'un potentiomètre
++ Jouer un son spécifique
++ Jouer un morceau, ou plusieurs morceaux
++ Utiliser des LEDs monochromes
++ Utiliser une LED RVB
 
 --- /task ---
 
 --- task ---
 
-**Test:** Connect your Raspberry Pi Pico to your computer and check that it works by blinking the onboard LED.
+Pense à quoi ressemblera ton gadget sensoriel.
 
-Here is some example code for blinking the onboard LED:
+Ça pourrait:
+
++ Être basé sur un gadget sensoriel qui existe déjà comme un fidget cube ou un popper
++ Avoir un thème basé sur ta bande dessinée, émission de télévision ou chanson préférée
++ Être une enceinte artisanale fabriquée à partir d'une vieille boîte en carton, d'un matériau en tissu ou d'un récipient en plastique
+
+--- /task ---
+
+### Commencer
+
+--- task ---
+
+Rassemble les composants dont tu auras besoin pour fabriquer ton gadget sensoriel. Tu auras besoin d'entrées, de sorties, de fils de liaison et de ton Raspberry Pi Pico.
+
+--- /task ---
+
+--- task ---
+
+**Test :** Connecte ton Raspberry Pi Pico à ton ordinateur et vérifie qu'il fonctionne en faisant clignoter la LED embarquée.
+
+Voici un exemple de code pour faire clignoter la LED intégrée :
 
 --- code ---
 ---
@@ -96,7 +96,7 @@ pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- task ---
 
-If you have not already prepared your inputs and outputs, and need to remind yourself of how to connect LEDs to resistors and jumper wires, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide.
+Si tu n'as pas encore préparé tes entrées et sorties et que tu as besoin de te rappeler comment connecter les LED aux résistances et aux fils de liaison, consulte notre guide [Introduction au Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"}.
 
 --- /task ---
 
