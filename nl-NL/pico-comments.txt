@@ -1,99 +1,99 @@
-Store the current option
+Sla de huidige optie op.
 
-Call the next function and update the option
+Roep de volgende functie aan en werk de optie bij
 
-Set up RGBLED
+Stel RGB-LED in
 
-Set up other RGBLED — the more, the brighter!
+Stel andere RGB-LED's in: Hoe meer, hoe helderder!
 
-Set up passive buzzer for hum/start/stop sounds
+Stel de passieve zoemer in voor zoem-/start-/stopgeluiden
 
-Set up button to turn on saber
+Stel de knop in om de sabel in te schakelen
 
-Set up potentiometer to change blade colour and turn off
+Stel de potentiometer in om de kleur van het blad te veranderen en uit te schakelen
 
-Turn off lights and make 'power-down' sound
+Schakel de lampjes uit en maak een 'power-down'-geluid
 
-White noise loop 1 second
+Witte ruis lus 1 seconde
 
-Pick a random number between 4000 and 6000
+Neem een willekeurig getal tussen 4000 en 6000
 
-Play tone for 1/1000th second
+Speel een toon gedurende 1/1000e seconde
 
-Pick a random number between 2000 and 4000
+Neem een willekeurig getal tussen 2000 en 4000
 
-Pick a random number between 1000 and 3000
+Neem een willekeurig getal tussen 1000 en 3000
 
-Pick a random number between 50 and 1000
+Neem een willekeurig getal tussen 50 en 1000
 
-Make lightsaber start sound then turn on lights
+Laat lichtsabel beginnen met geluid en schakel vervolgens de lichten in
 
-White noise loop 0.2 second
+Witte ruis lus 0.2 seconde
 
-White noise loop 0.4 second
+Witte ruis lus 0.4 seconde
 
-Pick a random number between 3000 and 5000
+Neem een willekeurig getal tussen 3000 en 5000
 
-Forever loop checking the dial reading to set colour and change hum sound
+Herhaal lus die de waarde van het instelwiel checkt om de kleur in te stellen en het zoemgeluid te veranderen
 
-Highest setting on dial - 5
+Hoogste instelling op het instelwiel - 5
 
-White
+Wit
 
-Highest setting on dial - 4
+Hoogste instelling op het instelwiel - 4
 
-Purple blade
+Paars blad
 
-Highest setting on dial - 3
+Hoogste instelling op het instelwiel - 3
 
-Blue blade
+Blauw blad
 
-Highest setting on dial - 2
+Hoogste instelling op het instelwiel - 2
 
-Green blade
+Groen blad
 
-Lowest setting on dial (above 0.01) - 1
+Laagste instelling op het instelwiel (boven 0.01) - 1
 
-Red blade
+Rood mes
 
-If dial turned all the way down - 0
+Als de knop helemaal naar beneden is gedraaid - 0
 
-Run off function
+Run off-functie
 
-Leave the loop
+Verlaat de lus
 
-State which pins the components are attached to on the Pico
+Geef aan op welke pinnen de onderdelen op de Pico zijn bevestigd
 
-Flickering flame loop
+Flakkerende vlamlus
 
-Mostly red
+Voornamelijk rood
 
-Never more than red
+Nooit meer dan rood
 
-No flame
+Geen vlam
 
-Dark time before reset
+Uitschakelen voor reset
 
-Loop to check if switch is closed
+Lus om te controleren of de schakelaar gesloten is
 
-Your mood
+Jouw stemming
 
-Turn on
+Schakel in
 
-Your first mood
+Je eerste stemming
 
-Turn off
+Schakel uit
 
-Your second mood
+Je tweede stemming
 
-Your first colour
+Je eerste kleur
 
-Your second colour
+Je tweede kleur
 
-Your third mood
+Je derde stemming
 
-Move to the next option
+Ga naar de volgende optie
 
-Call the choice function when the button is pressed
+Roep de keuzefunctie op wanneer de knop wordt ingedrukt
 
-Don't delay the main code
+Vertraag de hoofdcode niet
