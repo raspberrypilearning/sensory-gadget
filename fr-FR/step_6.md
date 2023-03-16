@@ -1,50 +1,50 @@
-## Share
+## Partager
 
-If you are in a club, why not share your project with friends? You could also show your family how your project works.
+Si tu es dans un club, pourquoi ne pas partager ton projet avec des amis ? Tu peux également montrer à ta famille comment fonctionne ton projet.
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspire la communauté Raspberry Pi Foundation avec ton projet !
 
-To submit a video of your gadget to our [Sensory gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}. Remember to protect your identity by making sure that people do not appear in your video.
+Pour soumettre une vidéo de ton gadget dans notre galerie [Gadget sensoriel - Communauté](https://wke.lt/w/s/qX5TaK){:target="_blank"}, remplis [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}. N'oublie pas de protéger ton identité en veillant à ce que personne n'apparaisse dans ta vidéo.
 
-![A screenshot of our Community Gallery page for the Introduction to Pico path showing galleries for mood indicator, sound machine, and sensory gadget projects.](images/community-galleries.png)
+![Une capture d'écran de notre page de galerie communautaire pour le parcours d'introduction à Pico montrant des galeries pour des projets d'indicateur d'humeur, de machine à sons et de gadgets sensoriels.](images/community-galleries.png)
 
 --- /task ---
 
 --- no-print ---
 
-**The Night Sky**
+**Le ciel nocturne**
 
-The original **Night Sky** project used a single RGBLED and a piece of card with holes poked through it to simulate a starry sky using projected light, which could be turned on and off by a button.
+Le projet original **Ciel nocturne** utilisait une seule LED RGB et un morceau de carton percé de trous pour simuler un ciel étoilé à l'aide d'une lumière projetée, qui pouvait être allumée et éteinte par un bouton.
 
-This upgraded version of the project adds another RGBLED to increase the brightness, and adds a diffuser for the LEDs to spread the light around more widely.
+Cette version améliorée du projet ajoute un autre LED RGB pour augmenter la luminosité et ajoute un diffuseur pour que les LED diffusent plus largement la lumière.
 
-The card with holes has been replaced by a lasercut dodecahedron, with the logos of popular superheroes used as cutouts to project the light into the room.
+Le carton troué a été remplacé par un dodécaèdre découpé au laser, avec les logos de super-héros populaires utilisés comme découpes pour projeter la lumière dans la pièce.
 
 <video width="640" height="360" controls>
 <source src="images/PicoUpgrade.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- /no-print ---
 
 --- print-only ---
 
-**The Night Sky**
+**Le ciel nocturne**
 
-The original **Night Sky** project used a single RGBLED and a piece of card with holes poked through it to simulate a starry sky using projected light, which could be turned on and off by a button.
+Le projet original **Ciel nocturne** utilisait une seule LED RGB et un morceau de carton percé de trous pour simuler un ciel étoilé à l'aide d'une lumière projetée, qui pouvait être allumée et éteinte par un bouton.
 
-This upgraded version of the project adds another RGBLED to increase the brightness, and adds a diffuser for the LEDs to spread the light around more widely.
+Cette version améliorée du projet ajoute un autre LED RGB pour augmenter la luminosité et ajoute un diffuseur pour que les LED diffusent plus largement la lumière.
 
-The card with holes has been replaced by a lasercut dodecahedron, with the logos of popular superheroes used as cutouts to project the light into the room.
+Le carton troué a été remplacé par un dodécaèdre découpé au laser, avec les logos de super-héros populaires utilisés comme découpes pour projeter la lumière dans la pièce.
 
-![Image showing a spider cutout from a pentagonal piece of wood, part of a dodecahedral lamp.](images/upgrade_lamp.png){:width="300px"}
+![Image montrant une découpe d'araignée dans un morceau de bois pentagonal, faisant partie d'une lampe dodécaédrique.](images/upgrade_lamp.png){:width="300px"}
 
 --- /print-only ---
 
 --- task ---
 
-Take a look at our [Sensory gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery to see projects created by our community members.
+Jette un œil à notre galerie [Gadget sensoriel - Communauté](https://wke.lt/w/s/qX5TaK){:target="_blank"} pour voir les projets créés par les membres de notre communauté.
 
 --- /task ---
