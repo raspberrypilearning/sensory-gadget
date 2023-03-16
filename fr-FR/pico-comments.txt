@@ -1,99 +1,99 @@
-Store the current option
+Mémoriser l'option actuelle
 
-Call the next function and update the option
+Appelle la fonction suivante et met à jour l'option
 
-Set up RGBLED
+Configurer RGBLED
 
-Set up other RGBLED — the more, the brighter!
+Configure d'autres LED RVB - plus il y en a, plus c'est lumineux !
 
-Set up passive buzzer for hum/start/stop sounds
+Configure un buzzer passif pour les sons de bourdonnement/démarrage/arrêt
 
-Set up button to turn on saber
+Bouton de configuration pour allumer le sabre
 
-Set up potentiometer to change blade colour and turn off
+Configure le potentiomètre pour changer la couleur de la lame et éteindre
 
-Turn off lights and make 'power-down' sound
+Éteindre les lumières et faire un son de « mise hors tension »
 
-White noise loop 1 second
+Boucle de bruit blanc 1 seconde
 
-Pick a random number between 4000 and 6000
+Choisit un nombre aléatoire ente 4000 et 6000
 
-Play tone for 1/1000th second
+Joue la tonalité pendant 1/1000e de seconde
 
-Pick a random number between 2000 and 4000
+Choisit un nombre aléatoire ente 2000 et 4000
 
-Pick a random number between 1000 and 3000
+Choisit un nombre aléatoire ente 1000 et 3000
 
-Pick a random number between 50 and 1000
+Choisit un nombre aléatoire ente 50 et 1000
 
-Make lightsaber start sound then turn on lights
+Faire le son de démarrage du sabre laser et allumer les lumières
 
-White noise loop 0.2 second
+Boucle de bruit blanc 0.2 seconde
 
-White noise loop 0.4 second
+Boucle de bruit blanc 0.4 seconde
 
-Pick a random number between 3000 and 5000
+Choisit un nombre aléatoire ente 3000 et 5000
 
-Forever loop checking the dial reading to set colour and change hum sound
+Boucle éternelle vérifiant la lecture du cadran pour définir la couleur et changer le son du bourdonnement
 
-Highest setting on dial - 5
+Réglage le plus élevé sur le cadran - 5
 
-White
+Blanc
 
-Highest setting on dial - 4
+Réglage le plus élevé sur le cadran - 4
 
-Purple blade
+Lame violette
 
-Highest setting on dial - 3
+Réglage le plus élevé sur le cadran - 3
 
-Blue blade
+Lame bleue
 
-Highest setting on dial - 2
+Réglage le plus élevé sur le cadran - 2
 
-Green blade
+Lame verte
 
-Lowest setting on dial (above 0.01) - 1
+Réglage le plus bas sur le cadran (au-dessus de 0,01) - 1
 
-Red blade
+Lame rouge
 
-If dial turned all the way down - 0
+Si le cadran est complètement tourné vers le bas - 0
 
-Run off function
+Fonction Run off
 
-Leave the loop
+Quitter la boucle
 
-State which pins the components are attached to on the Pico
+Indique à quelles broches les composants sont attachés sur le Pico
 
-Flickering flame loop
+Boucle de flamme vacillante
 
-Mostly red
+Principalement rouge
 
-Never more than red
+Jamais plus que rouge
 
-No flame
+Pas de flamme
 
-Dark time before reset
+Temps sombre avant la réinitialisation
 
-Loop to check if switch is closed
+Boucle pour vérifier si l'interrupteur est fermé
 
-Your mood
+Ton humeur
 
-Turn on
+Allumer
 
-Your first mood
+Ta première humeur
 
-Turn off
+Éteindre
 
-Your second mood
+Ta deuxième humeur
 
-Your first colour
+Ta première couleur
 
-Your second colour
+Ta deuxième couleur
 
-Your third mood
+Ta troisième humeur
 
-Move to the next option
+Passer à l'option suivante
 
-Call the choice function when the button is pressed
+Appelle la fonction de choix lorsque le bouton est enfoncé
 
-Don't delay the main code
+Ne pas retarder le code principal
