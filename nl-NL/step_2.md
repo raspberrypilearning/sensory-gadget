@@ -1,42 +1,42 @@
-## Your idea
+## Jouw idee
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Use this step to plan your sensory gadget. You can plan by just thinking, tinkering, drawing or writing, or however you like!  
+Gebruik deze stap om je sensorische gadget te plannen. Je kunt het plannen door erover na te denken, te knutselen, te tekenen of te schrijven, of hoe je maar wilt!  
 </div>
 <div>
-![A drawing of a bee with buzzers and a potentiometer attached.](images/buzy-bee.png){:width="300px"}
+![Een tekening van een bij met zoemers en een potentiometer.](images/buzy-bee.png){:width="300px"}
 </div>
 </div>
 
-### Why are you making your sensory gadget?
+### Waarom maak je je sensorische gadget?
 
 --- task ---
 
-Think about the purpose of your sensory gadget.
+Denk aan het doel van je sensorische gadget.
 
-It could be:
-+ For a younger sibling to learn about sights and sounds
-+ A way of relieving tension through pressing buttons and hearing sounds
-+ A communication tool to help people express their needs
+Dat kan zijn:
++ Voor een jongere broer om meer te weten te komen over bezienswaardigheden en geluiden
++ Een manier om de spanning te verlichten door knoppen in te drukken en geluiden te horen
++ Een communicatiemiddel om mensen te helpen hun behoeften te uiten
 
 --- /task ---
 
-### Who is it for?
+### Voor wie is het?
 
 --- task ---
 
-Think about who you will make your sensory gadget for (your **audience**).
+Bedenk voor wie je je sensorische gadget gaat maken (je **publiek**).
 
-It could be for a friend, for a family member, for a school class, for people who share a hobby, for fans of a TV programme or musician, or just for yourself.
+Het zou voor een vriend, voor een familielid, voor een schoolklas, voor mensen die een hobby delen, voor fans van een TV-programma of musicus, of alleen voor jezelf kunnen zijn.
 
 --- /task ---
 
-### What features will your gadget have?
+### Welke functies heeft je gadget?
 
 --- task ---
 
-Think about how many components your gadget will need.
+Bedenk hoeveel onderdelen je gadget nodig heeft.
 
 [[[pico-limitations]]]
 
@@ -44,44 +44,44 @@ Think about how many components your gadget will need.
 
 --- task ---
 
-Think about the types of inputs and outputs you will have.
+Denk aan de soorten in- en uitgangen die je zult hebben.
 
-You gadget could:
-+ Have push buttons for inputs
-+ Use crafted switches
-+ Use a dial input using a potentiometer
-+ Play a specific sound
-+ Play a tune, or several tunes
-+ Use single-coloured LEDs
-+ Use an RGB LED
-
---- /task ---
-
---- task ---
-
-Think about what your sensory gadget will look like.
-
-It could:
-
-+ Be based on a sensory gadget that already exists like a fidget cube or popper
-+ Have a theme that is based on your favourite comic, TV show, or song
-+ Be a crafted enclosure made from an old cardboard box, a fabric material, or a plastic container
-
---- /task ---
-
-### Get started
-
---- task ---
-
-Gather the components that you will need to make your sensory gadget. You will need inputs, outputs, jumper wires, and your Raspberry Pi Pico.
+Je gadget zou het volgende kunnen doen:
++ Drukknoppen hebben voor ingangen
++ Zelfgemaakte schakelaars gebruiken
++ Gebruik een instelwielingang met behulp van een potentiometer
++ Speel een bepaald geluid af
++ Speel een of meer melodieën af
++ Gebruik eenkleurige LED's
++ Gebruik een RGB LED
 
 --- /task ---
 
 --- task ---
 
-**Test:** Connect your Raspberry Pi Pico to your computer and check that it works by blinking the onboard LED.
+Bedenk hoe je sensorische gadget eruit zal zien.
 
-Here is some example code for blinking the onboard LED:
+Het zou:
+
++ Gebaseerd kunnen zijn op een sensorisch gadget dat al bestaat zoals een fidget kubus of popper
++ Een thema kunnen hebben dat is gebaseerd op je favoriete strip, tv-programma of nummer
++ Een zelfgemaakte behuizing kunnen hebben, gemaakt van een oude kartonnen doos, een lap stof of een plastic bakje
+
+--- /task ---
+
+### Aan de slag
+
+--- task ---
+
+Verzamel de onderdelen die je nodig hebt om je sensorische gadget te maken. Je hebt ingangen, uitgangen, verbindingsdraden en je Raspberry Pi Pico nodig.
+
+--- /task ---
+
+--- task ---
+
+**Test:** Sluit de Raspberry Pi Pico aan op de computer en controleer of deze werkt door de ingebouwde LED te laten knipperen.
+
+Hier is een voorbeeldcode voor het laten knipperen van de ingebouwde LED:
 
 --- code ---
 ---
@@ -96,7 +96,7 @@ pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- task ---
 
-If you have not already prepared your inputs and outputs, and need to remind yourself of how to connect LEDs to resistors and jumper wires, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide.
+Als je de ingangen en uitgangen nog niet hebt voorbereid en je nog niet weet hoe je LED's op weerstanden en verbindingsdraden moet aansluiten, bezoek dan onze [Inleiding tot de Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} gids.
 
 --- /task ---
 
