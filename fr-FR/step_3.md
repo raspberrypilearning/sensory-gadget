@@ -1,29 +1,29 @@
-## Build and test
+## Construire et tester
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time to make your sensory gadget.  
+Il est maintenant temps de fabriquer ton gadget sensoriel.  
 </div>
 <div>
-![Three images on a box showing eating, drinking, and playing. One of the images is backlit by an LED.](images/communication-tool.PNG){:width="300px"}
+![Trois images sur une boîte montrant manger, boire et jouer. L'une des images est rétroéclairée par une LED.](images/communication-tool.PNG){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Your sensory gadget is your own design and may have a **different combination** of components to the ones suggested in the diagrams below. 
+Ton gadget sensoriel est ta propre conception et peut avoir une **combinaison différente** de composants par rapport à ceux suggérés dans les schémas ci-dessous. 
 
-If a pin is already in use, then you will need to select a different pin and ground to use. Make sure that you **note down** which pin is in use for when you are writing your code. 
+Si une broche est déjà utilisée, tu devras sélectionner une broche et une masse différentes à utiliser. Assure-toi de **noter** la broche utilisée lorsque tu écris ton code. 
 </p>
 
-You have built up some really useful skills. Here is a reminder to help you make your sensory gadget:
+Tu as acquis des compétences vraiment utiles. Voici un rappel pour t'aider à fabriquer ton gadget sensoriel :
 
-### Connect your outputs
+### Connecter tes sorties
 
 [[[sharing-a-ground-pin]]]
 
 --- task ---
 
-### Single-colour LEDs
+### LEDs monochromes
 
 [[[single-led-wiring]]]
 
@@ -36,7 +36,7 @@ You have built up some really useful skills. Here is a reminder to help you make
 --- collapse ---
 
 ---
-title: Add a function to turn on a single LED
+title : Ajouter une fonction pour allumer une seule LED
 ---
 
 --- code ---
@@ -53,7 +53,7 @@ def excited(): # Your mood purple.on() # Turn on
 --- collapse ---
 
 ---
-title: Add functions to control multiple single LEDs
+title : Ajouter des fonctions pour contrôler plusieurs LED individuelles
 ---
 
 --- code ---
@@ -69,7 +69,7 @@ def worried(): # Your second mood purple.off() # Turn off blue.on() # Turn on
 
 --- /collapse ---
 
-### RGB LEDs
+### LEDs RVB
 
 [[[rgb-wiring]]]
 
@@ -78,7 +78,7 @@ def worried(): # Your second mood purple.off() # Turn off blue.on() # Turn on
 --- collapse ---
 
 ---
-title: Add functions to set an RGB LED colour
+title : Ajouter des fonctions pour définir la couleur d'une LED RVB
 ---
 
 --- code ---
@@ -96,25 +96,25 @@ def sad(): # Your second mood rgb.color = (255, 0, 0) # Your second colour
 
 [[[generic-theory-simple-colours]]]
 
-### Speakers and buzzers
+### Haut-parleurs et buzzers
 
 \[[[single-buzzer-wire]]\] \[[[stereo-buzzer-wiring\]]] \[[[earphones-wiring]]\] \[[[single-buzzer-pin\]]] [[[multiple-buzzer-pins]]]
 
-**Useful information about sound**
+**Informations utiles sur le son**
 
 \[[[list-of-notes]]\] \[[[note-length\]]] \[[[frequency-numbers]]\] \[[[sheet-to-notes\]]]
 
-**Sound code samples**
+**Exemples de code sonore**
 
 \[[[play-single-note]]\] \[[[play-a-tune\]]] \[[[pico-sound-frequency]]\] \[[[whitenoise-drum-beat\]]] \[[[notes-in-loop]]\] \[[[interrupt-tune\]]]
 
 --- /task ---
 
-### Connect your inputs
+### Connecter tes entrées
 
 --- task ---
 
-### Button
+### Bouton
 
 [[[single-button-wiring]]]
 
@@ -123,7 +123,7 @@ def sad(): # Your second mood rgb.color = (255, 0, 0) # Your second colour
 --- collapse ---
 
 ---
-title: Import Button
+title: Importer Button
 ---
 
 --- code ---
@@ -143,12 +143,12 @@ from picozero import Button
 --- collapse ---
 
 ---
-title: Call a different function when each button is pressed
+title : Appeller une fonction différente lorsque chaque bouton est enfoncé
 ---
 
-You can have multiple buttons that each call a different function when they are pressed.
+Tu peux avoir plusieurs boutons qui appellent chacun une fonction différente lorsqu'ils sont enfoncés.
 
-Make sure you use the function names from your project and just use the name of the function; do not call it by adding brackets.
+Assure-toi d'utiliser les noms de fonction de ton projet et n'utilise que le nom de la fonction; ne l'appelle pas en ajoutant des crochets.
 
 --- code ---
 ---
@@ -165,12 +165,12 @@ happy_button.when_pressed = happy sad_button.when_pressed = sad angry_button.whe
 --- collapse ---
 
 ---
-title: Change to the next function when a single button is pressed
+title : Passer à la fonction suivante lorsqu'un seul bouton est enfoncé
 ---
 
-Use an `option` variable to keep track of the current mood so that you can decide which function to call next.
+Utilise une variable `option` pour garder une trace de l'humeur actuelle afin que tu puisses décider quelle fonction appeler ensuite.
 
-Make sure the function names match the mood functions you defined in the previous step.
+Assure-toi que les noms de fonction correspondent aux fonctions d'ambiance que tu as défini à l'étape précédente.
 
 --- code ---
 ---
@@ -194,7 +194,7 @@ button.when_pressed = choice # Call the choice function when the button is press
 
 --- /collapse ---
 
-### Switch
+### Interrupteur
 
 [[[crafted-switch-button-wiring]]]
 
@@ -203,7 +203,7 @@ button.when_pressed = choice # Call the choice function when the button is press
 --- collapse ---
 
 ---
-title: Import Switch
+title: Importer Switch
 ---
 
 --- code ---
@@ -220,14 +220,14 @@ from picozero import Switch
 
 \[[[single-switch-pins]]\] \[[[multiple-switches-pins\]]]
 
-### Potentiometer
+### Potentiomètre
 
 \[[[potentiometer-wiring]]\] \[[[potentiometer-pin\]]]
 
 --- collapse ---
 
 ---
-title: Import Potentiometer
+title: Importer Potentiometer
 ---
 
 --- code ---
@@ -248,13 +248,13 @@ from picozero import Pot
 
 --- task ---
 
-**Test:** Test your inputs and outputs to make sure everything works as expected.
+**Test :** Teste tes entrées et sorties pour t'assurer que tout fonctionne comme prévu.
 
-Use the **debug** task at the bottom of this step if you come across any problems.
+Utilise la tâche **débogage** au bas de cette étape si tu rencontres des problèmes.
 
 --- /task ---
 
-### Craft your gadget
+### Fabrique ton gadget
 
 --- task ---
 
@@ -265,12 +265,12 @@ Use the **debug** task at the bottom of this step if you come across any problem
 --- collapse ---
 
 ---
-title: Use tape to hold jumper wires in place
+title : Utiliser du ruban adhésif pour maintenir les fils de raccordement en place
 ---
 
-Use sticky tape or electrical tape to hold the jumper wires in place so that your device stays together.
+Utilise du ruban adhésif ou du ruban électrique pour maintenir les fils de liaison en place afin que ton appareil reste solidaire.
 
-You can remove the tape later if you want to reuse the components.
+Tu peux retirer la bande ultérieurement si tu souhaites réutiliser les composants.
 
 --- /collapse ---
 
@@ -288,26 +288,26 @@ You can remove the tape later if you want to reuse the components.
 
 --- task ---
 
-**Test:** Show someone else your project and get their feedback. Do you want make any changes to your gadget?
+**Test :** Montre ton projet à quelqu'un d'autre pour avoir son avis. Souhaites-tu apporter des modifications à ton gadget ?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]] [[[pico-debug-led]]]
 
-Code runs, but nothing happens:
-+ Check that your inputs are connected correctly and that you used the correct pin in your code.
-+ Check the Thonny shell for any messages about variables or functions not being defined; you might have forgotten to change the examples to match your code.
-+ Check your code carefully. You could add `print` statements to help you understand what is happening.
-+ Check that you have called your functions.
+Le code s'exécute, mais rien ne se passe :
++ Vérifie que tes entrées sont correctement connectées et que tu as utilisé la bonne broche dans ton code.
++ Vérifie le shell Thonny pour tout message concernant des variables ou des fonctions non définies; tu as peut-être oublié de modifier les exemples pour qu'ils correspondent à ton code.
++ Vérifie bien ton code. Tu peux ajouter des instructions `print` pour t'aider à comprendre ce qui se passe.
++ Vérifie que tu as appelé tes fonctions.
 
 --- collapse ---
 
 ---
-title: Call a function
+title : Appeler une fonction
 ---
 
 --- code ---
@@ -328,45 +328,45 @@ happy()
 --- collapse ---
 
 ---
-title: My LED doesn't light when I call my function
+title : Ma LED ne s'allume pas lorsque j'appelle ma fonction
 ---
 
-Check that the pins in your code match the pins your LED is connected to.
+Vérifie que les broches de ton code correspondent aux broches auxquelles ta LED est connectée.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My RGB LED show the wrong colour
+title : Ma LED RVB affiche la mauvaise couleur
 ---
 
-Check your code to make sure that your colour values are in the right order. Use the ['RGB colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.
+Vérifie ton code pour t'assurer que tes valeurs de couleur sont dans le bon ordre. Utilise le ['Guide des couleurs RVB'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} pour vérifier que ton code correspond à la couleur que tu attends.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sounds are not playing, or not playing as I expected
+title : Mes sons ne sont pas joués, ou ne sont pas joués comme je l'attendais
 ---
 
-Your code was working before you assembled your sensory gadget. It is unlikely that your code will be broken at this stage. The majority of bugs will be from wiring and components.
+Ton code fonctionnait avant que tu n'aies assemblé ton gadget sensoriel. Il est peu probable que ton code soit cassé à ce stade. La majorité des bogues proviendront du câblage et des composants.
 
-+ Check that your components have been wired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
-+ Look for any loose connections and secure with tape
-+ Check that you haven't covered any conductive elements of your circuit with sticky tape or glue
++ Vérifie que tes composants ont été câblés sur les bonnes broches (tu aurais dû les noter plus tôt, elles sont affichées en haut de ton code)
++ Recherche les connexions desserrées et fixe-les avec du ruban adhésif
++ Vérifie que tu n'as recouvert aucun élément conducteur de ton circuit avec du ruban adhésif ou de la colle
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The main tune delays when I press a button
+title : La mélodie principale est retardée lorsque j'appuie sur un bouton
 ---
 
-When you use an event such as `when_pressed` to run a function, that function will run until it is finished and it will stop other code from running.
+Lorsque tu utilises un événement tel que `when_pressed` pour exécuter une fonction, cette fonction s'exécutera jusqu'à ce qu'elle soit terminée et empêchera l'exécution d'autres codes.
 
-If you want to start a tune from an event then you can use `play` with `wait=False`. The function will finish and the tune will continue playing without delaying the code running in your main code.
+Si tu souhaites démarrer une mélodie à partir d'un événement, tu peux utiliser `play` avec `wait=False`. La fonction se terminera et la mélodie continuera à jouer sans retarder l'exécution du code dans ton code principal.
 
 --- code ---
 ---
@@ -386,25 +386,25 @@ button.when_pressed = annoying_sound
 
 --- collapse ---
 ---
-title: My wires aren't long enough now that they are in my sensory gadget
+title : Mes fils ne sont plus assez longs maintenant qu'ils sont dans mon gadget sensoriel
 ---
 
-Now that you have crafted your sensory gadget, you might need extra-long wires to attach your component to your Raspberry Pi pins. Look at the instructions above to 'join jumper wires to extend them'.
+Maintenant que tu as conçu ton gadget sensoriel, tu auras peut-être besoin de fils extra-longs pour attacher ton composant à tes broches Raspberry Pi. Regarde les instructions ci-dessus pour "joindre les fils de connexion pour les étendre".
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My wires or components won't stay in place
+title : Mes fils ou mes composants ne tiennent pas en place
 ---
 
-Some connections are stronger than others so you might find that you need to use tape to keep your wires connected to your components or to hold your components in place on your gadget. Look at the instructions above to 'secure wires and components using tape'.
+Certaines connexions sont plus solides que d'autres, tu devras donc peut-être utiliser du ruban adhésif pour maintenir tes fils connectés à tes composants ou pour maintenir tes composants en place sur ton gadget. Consulte les instructions ci-dessus pour "fixer les fils et les composants à l'aide de ruban adhésif".
 
 --- /collapse ---
 
-You might find a bug not listed here. Can you figure out how to fix it?
+Tu pourrais trouver un bogue qui n'est pas répertorié ici. Peux-tu trouver comment le résoudre?
 
-We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
+Nous aimons avoir des nouvelles de tes bogues et de la façon dont tu les as corrigés. Utilise le bouton de commentaires au bas de cette page si tu as trouvé un bogue différent dans ton projet.
 
 --- /task ---
 
