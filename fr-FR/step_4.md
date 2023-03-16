@@ -1,76 +1,76 @@
-## Checklist
+## Liste de contrôle
 
-Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
+Est-ce que tu as respecté la **fiche de projet** ? Réfléchis à ton projet et parcours la liste de contrôle ci-dessous et coche celles qui s'appliquent à ton projet.
 
-Does your sensory gadget:
+Est-ce que ton gadget sensoriel :
 
 --- task ---
 
-Have multiple different kinds of input?
+A plusieurs types d'entrée différents ?
 
 --- /task ---
 
 --- task ---
 
-Have multiple different outputs?
+A plusieurs sorties différentes ?
 
 --- /task ---
 
 --- task ---
 
-Appeal to the user and is it robust enough to be used?
+Est attrayant pour l'utilisateur et est suffisamment robuste pour être utilisé ?
 
 --- /task ---
 
-Your sensory gadget could also:
+Ton gadget sensoriel pourrait également :
 
 --- task ---
 
-Take ergonomics such as user comfort into consideration
-
---- /task ---
-
---- task ---
-
-Reset after user input or after a set amount of time
+Tenir compte de l'ergonomie, notamment du confort de l'utilisateur
 
 --- /task ---
 
 --- task ---
 
-Connect to a specific theme
-
---- /task ---
-
-Reflecting about how you made your sensory gadget will help you in your future projects.
-
-Answer the questions below by drawing, writing, typing in a document, talking to someone, or in your own creative way that works best for you.
-
---- task ---
-
-How did you get your ideas?
+Se réinitialiser après une entrée de l'utilisateur ou après un laps de temps défini
 
 --- /task ---
 
 --- task ---
 
-What cool new thing(s) did you learn?
+Être rattaché à un thème spécifique
+
+--- /task ---
+
+Réfléchir à la façon dont tu as fabriqué ton gadget sensoriel t'aidera dans tes futurs projets.
+
+Réponds aux questions ci-dessous en dessinant, en écrivant, en tapant un document, en parlant à quelqu'un ou de ta propre manière créative qui te convient le mieux.
+
+--- task ---
+
+Comment as-tu eu tes idées ?
 
 --- /task ---
 
 --- task ---
 
-Mistakes are powerful. What mistakes did you make and how did they help you create your sensory gadget?
+Quelle(s) nouvelle(s) chose(s) cool as-tu apprise(s) ?
 
 --- /task ---
 
-### Now you are the creator of your own sensory gadget!
+--- task ---
 
-Take a moment to celebrate what you have made.
+Les erreurs sont puissantes. Quelles erreurs as-tu commises et comment t'ont-elles aidé à créer ton gadget sensoriel ?
+
+--- /task ---
+
+### Tu es maintenant le créateur de ton propre gadget sensoriel !
+
+Prends un moment pour célébrer ce que tu as fait.
 
 --- task ---
 
-Where will you take your new powers? What will you make next?
+Comment vas-tu utiliser tes nouveaux pouvoirs ? Que feras-tu ensuite?
 
 --- /task ---
 
