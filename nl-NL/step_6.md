@@ -1,50 +1,50 @@
-## Share
+## Deel
 
-If you are in a club, why not share your project with friends? You could also show your family how your project works.
+Als je lid bent van een club, waarom zou je je project dan niet delen met vrienden? Je kunt jouw familie ook laten zien hoe jouw project werkt.
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspireer de Raspberry Pi Foundation-gemeenschap met jouw project!
 
-To submit a video of your gadget to our [Sensory gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}. Remember to protect your identity by making sure that people do not appear in your video.
+Als je een video van je gadget wilt verzenden naar onze [zingtuigelijk gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} galerie, vul dan [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in. Vergeet niet om je identiteit te beschermen door ervoor te zorgen dat mensen niet (herkenbaar) in je video verschijnen.
 
-![A screenshot of our Community Gallery page for the Introduction to Pico path showing galleries for mood indicator, sound machine, and sensory gadget projects.](images/community-galleries.png)
+![Een schermafdruk van onze Community Gallery-pagina voor het Introduction to Pico-pad met galerieën voor stemmingsindicator, geluidsmachine en sensorische gadget-projecten.](images/community-galleries.png)
 
 --- /task ---
 
 --- no-print ---
 
-**The Night Sky**
+**De sterrenhemel**
 
-The original **Night Sky** project used a single RGBLED and a piece of card with holes poked through it to simulate a starry sky using projected light, which could be turned on and off by a button.
+Het originele **Sterrenhemel** project gebruikte een enkele RGB-LED en een stuk karton met gaten erin geprikt om een sterrenhemel te simuleren met geprojecteerd licht, dat met een knop in- en uitgeschakeld kon worden.
 
-This upgraded version of the project adds another RGBLED to increase the brightness, and adds a diffuser for the LEDs to spread the light around more widely.
+Deze verbeterde versie van het project voegt nog een RGB-LED toe om de helderheid te verhogen, en voegt een diffuser toe voor de LED's om het licht breder te verspreiden.
 
-The card with holes has been replaced by a lasercut dodecahedron, with the logos of popular superheroes used as cutouts to project the light into the room.
+De kaart met gaten is vervangen door een lasergesneden dodecaëder, met de logo's van populaire superhelden die worden gebruikt als uitsparingen om het licht in de kamer te projecteren.
 
 <video width="640" height="360" controls>
 <source src="images/PicoUpgrade.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- /no-print ---
 
 --- print-only ---
 
-**The Night Sky**
+**De sterrenhemel**
 
-The original **Night Sky** project used a single RGBLED and a piece of card with holes poked through it to simulate a starry sky using projected light, which could be turned on and off by a button.
+Het originele **Sterrenhemel** project gebruikte een enkele RGB-LED en een stuk karton met gaten erin geprikt om een sterrenhemel te simuleren met geprojecteerd licht, dat met een knop in- en uitgeschakeld kon worden.
 
-This upgraded version of the project adds another RGBLED to increase the brightness, and adds a diffuser for the LEDs to spread the light around more widely.
+Deze verbeterde versie van het project voegt nog een RGB-LED toe om de helderheid te verhogen, en voegt een diffuser toe voor de LED's om het licht breder te verspreiden.
 
-The card with holes has been replaced by a lasercut dodecahedron, with the logos of popular superheroes used as cutouts to project the light into the room.
+De kaart met gaten is vervangen door een lasergesneden dodecaëder, met de logo's van populaire superhelden die worden gebruikt als uitsparingen om het licht in de kamer te projecteren.
 
-![Image showing a spider cutout from a pentagonal piece of wood, part of a dodecahedral lamp.](images/upgrade_lamp.png){:width="300px"}
+![Afbeelding met een spin gesneden uit een vijfhoekig stuk hout, onderdeel van een dodecaëdrische lamp.](images/upgrade_lamp.png){:width="300px"}
 
 --- /print-only ---
 
 --- task ---
 
-Take a look at our [Sensory gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} gallery to see projects created by our community members.
+Bekijk onze [zingtuigelijk gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} galerie om projecten te bekijken die zijn gemaakt door onze community-leden.
 
 --- /task ---
