@@ -1,57 +1,57 @@
-## You will make
+## Wat ga je maken
 
-Make a fidget toy or sensory gadget. Your gadget will need to meet the **project brief**.
+Maak een speeltje of een sensorische gadget. Je gadget moet voldoen aan de **projectsamenvatting**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">sensory gadget</span> is something that makes you want to keep interacting with it. A fidget toy is a type of sensory gadget that helps the user relieve stress or improve their concentration. An adaptive gadget can be used by people with physical disabilities for communication. A sensory gadget might stimulate all the senses or just focus on one.
+Een <span style="color: #0faeb0">sensorische gadget</span> is iets waar je mee wilt blijven communiceren. Een fidget speeltje is een type zintuiglijk gadget dat de gebruiker helpt stress te verlichten of zijn concentratie te verbeteren. Een adaptieve gadget kan door mensen met een lichamelijke beperking worden gebruikt voor communicatie. Een zintuiglijke gadget kan alle zintuigen prikkelen of slechts op één ervan focussen.
 </p>
 
-You will:
-+ Use your digital making skills to design and make a gadget for a user
-+ Use physical inputs such as buttons and potentiometers to control physical outputs such as LEDs and a buzzer
-+ Let others try our your gadget and improve it based on their feedback
+Je gaat:
++ Je digitale maakvaardigheden gebruiken om een gadget voor een gebruiker te ontwerpen en te maken
++ Fysieke ingangen gebruiken zoals knoppen en potentiometers om fysieke uitgangen zoals LED's en een zoemer te regelen
++ Anderen je gadget laten uitproberen en het verbeteren op basis van hun feedback
 
 --- no-print ---
 
-To complete this project you will need:
+Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware:**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webwinkel.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+Als je al een Raspberry Pi Pico hebt, kun je de elektronische componenten die je nodig hebt voor dit project en de andere projecten in het pad kopen bij [de Kitronik webwinkel.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){: target='_blank
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ A variety of electronic components and jumper leads
++ Een Raspberry Pi Pico met gesoldeerde pinnen
++ Een data USB A naar micro USB-kabel
++ Een verscheidenheid aan elektronische componenten en verbindingsdraden
 
 **Software:**
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
++ Thonny – dit project kan worden voltooid met de Thonny Python editor, die kan worden geïnstalleerd op een Linux-, Windows- of Mac-computer.
 
 [[[thonny-install]]]
 
 [[[change-theme-thonny]]]
 
-+ picozero - you will need to set up picozero on your Raspberry Pi Pico
++ picozero - je moet picozero instellen op je Raspberry Pi Pico
 
 [[[set-up-picozero]]]
 
 --- task ---
 
-### Discover ▶️
+### Ontdek ▶️
 
-Watch the video below. How is the tool being used for communication? What inputs and outputs have been used?
+Bekijk de onderstaande video. Hoe wordt de gadget gebruikt voor communicatie? Welke ingangen en uitgangen zijn gebruikt?
 
-**An assistive gadget** A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button that alerts their carer.
+**Een hulpgadget** Een gebruiker kan een optie selecteren om zijn verzorger op de hoogte te stellen van zijn huidige behoefte. Zodra ze een selectie hebben gemaakt, drukken ze op een andere knop die hun verzorger waarschuwt.
 
 <video width="640" height="360" controls>
 <source src="images/communication-tool.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -89,52 +89,52 @@ choose.when_pressed = choice confirm.when_pressed = sound_buzzer --- /code ---
 
 --- print-only ---
 
-**An assistive gadget** A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button that alerts their carer.
+**Een hulpgadget** Een gebruiker kan een optie selecteren om zijn verzorger op de hoogte te stellen van zijn huidige behoefte. Zodra ze een selectie hebben gemaakt, drukken ze op een andere knop die hun verzorger waarschuwt.
 
-![desc](images/communication-tool.PNG)
+![beschrijving](images/communication-tool.PNG)
 
 --- /print-only ---
 
 <div style="border-top: 15px solid #f3524f; background-color: whitesmoke; margin-bottom: 20px; padding: 10px;">
 
-### PROJECT BRIEF: Sensory gadget
+### PROJECT SAMENVATTING: Sensorische gadget
 <hr style="border-top: 2px solid black;">
-Make a sensory gadget that people will want to use.
+Maak een sensorische gadget die mensen willen gebruiken.
 
-Your sensory gadget should:
-+ Have multiple different kinds of input
-+ Have multiple different outputs
-+ Be appealing to the user and robust enough to be used
+Je sensorische gadget moet:
++ meerdere verschillende soorten invoer hebben 
++ meerdere verschillende uitgangen hebben 
++ aantrekkelijk zijn voor de gebruiker en robuust genoeg om gebruikt te worden
 
-Your sensory gadget could:
-+ Take ergonomics like user comfort into consideration
-+ Reset on user input or after a set amount of time 
-+ Connect to a specific theme
+Je sensorische gadget kan:
++ Rekening houden met ergonomie zoals gebruikerscomfort
++ Zich resetten op gebruikersinvoer of na een ingestelde hoeveelheid tijd
++ Verbonden zijn met een specifiek thema
 
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Ergonomics</span> is a science that seeks to overcome problems and improve how humans can interact with their environment. Improving the ergonomics of a gadget will make it easier to use and more comfortable to interact with. 
+<span style="color: #0faeb0">Ergonomie</span> is een wetenschap die probeert problemen te overwinnen en de manier te verbeteren waarop mensen met hun omgeving kunnen communiceren. Het verbeteren van de ergonomie van een gadget zal het makkelijker maken om te gebruiken en comfortabeler om mee te communiceren. 
 </p>
 
 --- no-print ---
 
-### Get ideas 💭
+### Ideeën opdoen 💭
 
 --- task ---
 
-Think about the sensory gadget that you would like to make as you investigate these example projects:
+Denk aan het sensorische gadget dat je wilt maken als je deze voorbeeldprojecten onderzoekt:
 
-**The night sky** Tiny holes have been poked through a piece of black card to make a night sky effect on a ceiling in a dark room. An RGB LED pulses to create a twinkling effect. A button is used to switch the light on and off.
+**De nachtelijke hemel** Kleine gaten zijn door een stuk zwarte kaart geprikt om een sterrenhemel effect te maken op een plafond in een donkere kamer. Een RGB-LED pulseert om een fonkelend effect te creëren. Een knop wordt gebruikt om het licht in en uit te schakelen.
 
 <video width="640" height="360" controls>
 <source src="images/the-night-sky.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -157,16 +157,16 @@ button.when_pressed = change_option --- /code ---
 
 --- /collapse ---
 
-**The buzzy bee** The bee's wings have kitchen foil on the back of them and when pressed down they connect to another piece of foil on the card — this makes a buzzer play a note. Each wing plays a different sound. A potentiometer controls a blue LED on the bee's tail.
+**De bezige bij** De vleugels van de bij hebben een keukenfolie op de achterkant en als ze omlaag worden gedrukt, verbinden ze zich met een ander stukje folie op de kaart; hierdoor speelt een zoemer een toon. Elke vleugel speelt een ander geluid. Een potentiometer bestuurt een blauwe LED op de staart van de bij.
 
 <video width="640" height="360" controls>
 <source src="images/buzy-bee.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -189,16 +189,16 @@ while True: led.brightness = dial.percent button1.when_pressed = tune1 button2.w
 
 --- /collapse ---
 
-**Picosaber** Pressing the button lights the blade of the saber and starts the buzzers making a humming sound. Turning the potentiometer changes the colour of the blade and pitch of the hum. Turning the potentiometer all the way down plays a 'power-down sound' then switches off the lights and buzzers.
+**Picosabel** Als op de knop wordt gedrukt, licht het blad van de sabel op en beginnen de zoemers een geluid te maken. Door aan het instelwiel te draaien verandert de kleur van het blad en de toonhoogte van de zoem. Als het instelwiel helemaal naar beneden wordt gedraaid, klinkt er een 'power-down'-geluid en worden de lampjes en zoemers uitgeschakeld.
 
 <video width="640" height="360" controls>
 <source src="images/picosaber.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -215,11 +215,11 @@ power = Button(17) # Set up button to turn on saber
 
 dial = Pot(0) # Set up potentiometer to change blade colour and turn off
 
-# Turn off lights and make 'power-down' sound
+# Schakel de lampjes uit en maak een 'power-down'-geluid
 def off(): for i in range(400): # White noise loop 1 second tone = randint(4000,6000) # Pick a random number between 4000 and 6000 hum.play(tone, 0.001) # Play tone for 1/1000th second for i in range(200): # White noise loop 1 second tone = randint(2000,4000) # Pick a random number between 2000 and 4000 hum.play(tone, 0.001) # Play tone for 1/1000th second for i in range(200): # White noise loop 1 second tone = randint(1000,3000) # Pick a random number between 1000 and 3000 hum.play(tone, 0.001) # Play tone for 1/1000th second for i in range(200): # White noise loop 1 second tone = randint(50,1000) # Pick a random number between 50 and 1000 hum.play(tone, 0.001) # Play tone for 1/1000th second led.color = (0,0,0) led2.color = (0,0,0) hum.off()
 
 
-# Make lightsaber start sound then turn on lights
+# Laat de lichtsabel beginnen met geluid en schakel vervolgens de lichten in
 def on(): for i in range(200): # White noise loop 0.2 second tone = randint(50,1000) # Pick a random number between 50 and 1000 hum.play(tone, 0.001) # Play tone for 1/1000th second for i in range(200): # White noise loop 0.2 second tone = randint(1000,3000) # Pick a random number between 1000 and 3000 hum.play(tone, 0.001) # Play tone for 1/1000th second for i in range(200): # White noise loop 0.2 second tone = randint(2000,4000) # Pick a random number between 2000 and 4000 hum.play(tone, 0.001) # Play tone for 1/1000th second for i in range(400): # White noise loop 0.4 second tone = randint(3000,5000) # Pick a random number between 3000 and 5000 hum.play(tone, 0.001) # Play tone for 1/1000th second while True: # Forever loop checking the dial reading to set colour and change hum sound if dial.value >= 0.8: # Highest setting on dial - 5 led.color = (255,255,255) # White led2.color = (255,255,255) hum.play(90) elif dial.value >= 0.6: # High setting on dial - 4 led.color = (255,0,255) # Purple blade led2.color = (255,0,255) hum.play(80) elif dial.value >= 0.4: # Middle setting on dial - 3 led.color = (0,0,255) # Blue blade led2.color = (0,0,255) hum.play(70) elif dial.value >= 0.2: # Low setting on dial - 2 led.color = (0,255,0) # Green blade led2.color = (0,255,0) hum.play(60) elif dial.value >= 0.01: # Lowest setting on dial (above 0.01) - 1 led.color = (255,0,0) # Red blade led2.color = (255,0,0) hum.play(50) else: # If dial turned all the way down - 0 off() # Run off function break # Leave the loop
 
 
@@ -227,13 +227,13 @@ power.when_pressed = on --- /code ---
 
 --- /collapse ---
 
-**Digital candle** The RGB LED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to touch another contact on the candle and stop the loop. After a while, the loop restarts.
+**digitale kaars** de RGB LED zit in een lus die lijkt op een flakkerende vlam. Door op de kaars te blazen, komt een folie in contact met een ander contact op de kaars en stopt de lus. Na een tijdje start de lus opnieuw.
 
-![Animation showing Mr C blowing out a digital candle.](images/candle.gif)
+![Animatie waarin meneer C een digitale kaars uitblaast.](images/candle.gif)
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 
 --- code ---
@@ -243,7 +243,7 @@ line_highlights:
 ---
 from picozero import RGBLED, Switch from time import sleep from random import randint
 
-# State which pins the components are attached to on the Pico
+# Geef aan op welke pinnen de onderdelen op de Pico zijn bevestigd
 led = RGBLED(13, 14, 15) trigger = Switch(18)
 
 
@@ -253,7 +253,7 @@ def light(): # Flickering flame loop red = randint(125,255) # Mostly red yellow 
 def dark(): # No flame led.off() sleep(2) # Dark time before reset
 
 
-# Loop to check if switch is closed
+# Lus om te controleren of de schakelaar gesloten is
 while True: if trigger.is_closed: dark() else: light()
 
 --- /code ---
@@ -266,17 +266,17 @@ while True: if trigger.is_closed: dark() else: light()
 
 --- print-only ---
 
-**An assistive gadget** A user can select an option to let their carer know of their current need. Once they have made a selection, they press another button that alerts their carer. ![desc](images/communication-tool.PNG)
+**een hulpgadget** Een gebruiker kan een optie selecteren om zijn verzorger op de hoogte te stellen van zijn huidige behoefte. Zodra ze een selectie hebben gemaakt, drukken ze op een andere knop die hun verzorger waarschuwt. ![beschrijving](images/communication-tool.PNG)
 
-**The night sky** Tiny holes have been poked through a piece of black card to make a starry night effect on a ceiling in a dark room. An RGB LED pulses to create a twinkling effect. ![desc](images/night-sky.PNG)
+**De nachtelijke hemel** Kleine gaten zijn door een stuk zwarte kaart geprikt om een sterrenhemel effect te maken op een plafond in een donkere kamer. Een RGB-LED pulseert om een fonkelend effect te creëren. ![beschrijving](images/night-sky.PNG)
 
-**The buzzy bee** The bee's wings have kitchen foil on the back of them and when pressed down they connect to another piece of foil on the card — this makes a buzzer play a note. Each wing plays a different sound. A potentiometer controls a blue LED on the bee's tail. ![desc](images/buzy-bee.png)
+**De bezige bij** De vleugels van de bij hebben een keukenfolie op de achterkant en als ze omlaag worden gedrukt, verbinden ze zich met een ander stukje folie op de kaart; hierdoor speelt een zoemer een toon. Elke vleugel speelt een ander geluid. Een potentiometer bestuurt een blauwe LED op de staart van de bij. ![beschrijving](images/buzy-bee.png)
 
-**Picosaber** Pressing the button lights the blade of the saber and starts the buzzers making a humming sound. Turning the potentiometer changes the colour of the blade and pitch of the hum. Turning the potentiometer all the way down plays a 'power-down sound' then switches off the lights and buzzers. ![desc](images/picosaber.png)
+**Picosabel** Als op de knop wordt gedrukt, licht het blad van de sabel op en beginnen de zoemers een geluid te maken. Door aan het instelwiel te draaien verandert de kleur van het blad en de toonhoogte van de zoem. Als het instelwiel helemaal naar beneden wordt gedraaid, klinkt er een 'power-down'-geluid en worden de lampjes en zoemers uitgeschakeld. ![beschrijving](images/picosaber.png)
 
-**Digital candle** The RGB LED is on a loop that appears like a flickering flame. Blowing on the candle causes a foil contact to another contact on the candle and stop the loop. After a while, the loop restarts.
+**digitale kaars** de RGB LED zit in een lus die lijkt op een flakkerende vlam. Door op de kaars te blazen, komt een folie in contact met een ander contact op de kaars en stopt de lus. Na een tijdje start de lus opnieuw.
 
-![desc](images/candle.PNG)
+![beschrijving](images/candle.PNG)
 
 --- /print-only ---
 
