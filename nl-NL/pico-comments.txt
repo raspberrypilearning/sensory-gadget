@@ -1,4 +1,4 @@
-Sla de huidige optie op.
+Sla de huidige optie op
 
 Roep de volgende functie aan en werk de optie bij
 
