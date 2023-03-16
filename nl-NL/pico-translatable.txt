@@ -1,109 +1,109 @@
-eat
+eet
 
 drink
 
-play
+speel
 
-speaker
+luidspreker
 
-choose
+kies
 
-confirm
+bevestig
 
-option
+optie
 
-choice
+keuze
 
-sound_buzzer
+geluid_zoemer
 
-rgb
+RGB
 
-button
+drukknop
 
-change_option
+verander_optie
 
-led
+LED
 
-speaker1
+luidspreker1
 
-speaker2
+luidspreker2
 
-button1
+knop1
 
-button2
+knop2
 
-dial
+instelwiel
 
-tune1
+melodie1
 
-tune2
+melodie2
 
-1 pressed
+1 ingedrukt
 
-2 pressed
+2 ingedrukt
 
-hum
+zoem
 
-power
+kracht
 
-off
+uit
 
-tone
+toon
 
-on
+aan
 
-trigger
+signaal
 
-light
+licht
 
-red
+rood
 
-yellow
+geel
 
-delay
+vertraging
 
-dark
+donker
 
-excited
+opgewonden
 
-purple
+paars
 
-blue
+blauw
 
-worried
+bezorgd
 
-happy
+gelukkig
 
-sad
+verdrietig
 
-angry
+boos
 
-happy_button
+gelukkig_knop
 
-sad_button
+verdrietig_knop
 
-angry_button
+boos_knop
 
-energised
+energiek
 
-calm
+rustig
 
-focused
+gefocust
 
-mood
+humeur
 
-good
+goed
 
-okay
+oké
 
-unsure
+onzeker
 
-unhappy
+ongelukkig
 
-sound
+geluid
 
-annoying_sound
+vervelend_geluid
 
-speaker
+luidspreker
 
-button
+drukknop
