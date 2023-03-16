@@ -1,29 +1,29 @@
-## Build and test
+## Bouwen en testen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time to make your sensory gadget.  
+Nu is het tijd om je sensorische gadget te maken.  
 </div>
 <div>
-![Three images on a box showing eating, drinking, and playing. One of the images is backlit by an LED.](images/communication-tool.PNG){:width="300px"}
+![drie afbeeldingen op een doos met eten, drinken en spelen. Een van de afbeeldingen wordt verlicht door een LED.](images/communication-tool.PNG){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Your sensory gadget is your own design and may have a **different combination** of components to the ones suggested in the diagrams below. 
+Je sensorische gadget is je eigen ontwerp en kan een **andere combinatie** van onderdelen hebben dan die in de onderstaande diagrammen worden gesuggereerd. 
 
-If a pin is already in use, then you will need to select a different pin and ground to use. Make sure that you **note down** which pin is in use for when you are writing your code. 
+Als een pin al in gebruik is, moet je een andere pin en aarde selecteren om te gebruiken. Zorg ervoor dat je **noteert** welke pin in gebruik is voor wanneer je je code schrijft. 
 </p>
 
-You have built up some really useful skills. Here is a reminder to help you make your sensory gadget:
+Je hebt een aantal echt nuttige vaardigheden opgebouwd. Hier is een herinnering om je te helpen je sensorische gadget te maken:
 
-### Connect your outputs
+### Verbind je outputs
 
 [[[sharing-a-ground-pin]]]
 
 --- task ---
 
-### Single-colour LEDs
+### LED's met één kleur
 
 [[[single-led-wiring]]]
 
@@ -36,7 +36,7 @@ You have built up some really useful skills. Here is a reminder to help you make
 --- collapse ---
 
 ---
-title: Add a function to turn on a single LED
+Title: Voeg een functie toe om een enkele LED in te schakelen
 ---
 
 --- code ---
@@ -53,7 +53,7 @@ def excited(): # Your mood purple.on() # Turn on
 --- collapse ---
 
 ---
-title: Add functions to control multiple single LEDs
+Title: Voeg functies toe om meerdere afzonderlijke LED's te bedienen
 ---
 
 --- code ---
@@ -69,7 +69,7 @@ def worried(): # Your second mood purple.off() # Turn off blue.on() # Turn on
 
 --- /collapse ---
 
-### RGB LEDs
+### RGB-LED's
 
 [[[rgb-wiring]]]
 
@@ -78,7 +78,7 @@ def worried(): # Your second mood purple.off() # Turn off blue.on() # Turn on
 --- collapse ---
 
 ---
-title: Add functions to set an RGB LED colour
+Title: Voeg functies toe om een RGB LED-kleur in te stellen
 ---
 
 --- code ---
@@ -96,25 +96,25 @@ def sad(): # Your second mood rgb.color = (255, 0, 0) # Your second colour
 
 [[[generic-theory-simple-colours]]]
 
-### Speakers and buzzers
+### Luidsprekers en zoemers
 
 \[[[single-buzzer-wire]]\] \[[[stereo-buzzer-wiring\]]] \[[[earphones-wiring]]\] \[[[single-buzzer-pin\]]] [[[multiple-buzzer-pins]]]
 
-**Useful information about sound**
+**Nuttige informatie over geluid**
 
 \[[[list-of-notes]]\] \[[[note-length\]]] \[[[frequency-numbers]]\] \[[[sheet-to-notes\]]]
 
-**Sound code samples**
+**Voorbeelden van geluidscodes**
 
 \[[[play-single-note]]\] \[[[play-a-tune\]]] \[[[pico-sound-frequency]]\] \[[[whitenoise-drum-beat\]]] \[[[notes-in-loop]]\] \[[[interrupt-tune\]]]
 
 --- /task ---
 
-### Connect your inputs
+### Sluit je ingangen aan
 
 --- task ---
 
-### Button
+### Drukknop
 
 [[[single-button-wiring]]]
 
@@ -123,7 +123,7 @@ def sad(): # Your second mood rgb.color = (255, 0, 0) # Your second colour
 --- collapse ---
 
 ---
-title: Import Button
+Title: Knop importeren
 ---
 
 --- code ---
@@ -143,12 +143,12 @@ from picozero import Button
 --- collapse ---
 
 ---
-title: Call a different function when each button is pressed
+Title: Roep een andere functie aan wanneer elke knop wordt ingedrukt
 ---
 
-You can have multiple buttons that each call a different function when they are pressed.
+Je kunt meerdere knoppen hebben die elk een andere functie aanroepen wanneer ze worden ingedrukt.
 
-Make sure you use the function names from your project and just use the name of the function; do not call it by adding brackets.
+Zorg ervoor dat je de functienamen van je project gebruikt, zonder haakjes.
 
 --- code ---
 ---
@@ -165,12 +165,12 @@ happy_button.when_pressed = happy sad_button.when_pressed = sad angry_button.whe
 --- collapse ---
 
 ---
-title: Change to the next function when a single button is pressed
+Title: Ga naar de volgende functie wanneer er op een knop wordt gedrukt
 ---
 
-Use an `option` variable to keep track of the current mood so that you can decide which function to call next.
+Gebruik een `optie` variabele om de huidige stemming bij te houden, zodat je kunt beslissen welke functie je daarna wil aanroepen.
 
-Make sure the function names match the mood functions you defined in the previous step.
+Zorg ervoor dat de functienamen overeenkomen met de humeurfuncties die je in de vorige stap hebt gedefinieerd.
 
 --- code ---
 ---
@@ -194,7 +194,7 @@ button.when_pressed = choice # Call the choice function when the button is press
 
 --- /collapse ---
 
-### Switch
+### Schakelaar
 
 [[[crafted-switch-button-wiring]]]
 
@@ -203,7 +203,7 @@ button.when_pressed = choice # Call the choice function when the button is press
 --- collapse ---
 
 ---
-title: Import Switch
+Title: Import schakelaar
 ---
 
 --- code ---
@@ -227,7 +227,7 @@ from picozero import Switch
 --- collapse ---
 
 ---
-title: Import Potentiometer
+Title: Import potentiometer
 ---
 
 --- code ---
@@ -248,13 +248,13 @@ from picozero import Pot
 
 --- task ---
 
-**Test:** Test your inputs and outputs to make sure everything works as expected.
+**Test:** Test de in- en uitgangen om ervoor te zorgen dat alles werkt zoals verwacht.
 
-Use the **debug** task at the bottom of this step if you come across any problems.
+Gebruik de **foutopsporing** taak onderaan deze stap als je problemen tegenkomt.
 
 --- /task ---
 
-### Craft your gadget
+### Maak je gadget
 
 --- task ---
 
@@ -265,12 +265,12 @@ Use the **debug** task at the bottom of this step if you come across any problem
 --- collapse ---
 
 ---
-title: Use tape to hold jumper wires in place
+title: Gebruik tape om de verbindingsdraden op hun plaats te houden
 ---
 
-Use sticky tape or electrical tape to hold the jumper wires in place so that your device stays together.
+Gebruik plakband of isolatietape om de verbindingsdraden op hun plaats te houden zodat het toestel bij elkaar blijft.
 
-You can remove the tape later if you want to reuse the components.
+Je kunt de tape later verwijderen als je de onderdelen opnieuw wilt gebruiken.
 
 --- /collapse ---
 
@@ -288,26 +288,26 @@ You can remove the tape later if you want to reuse the components.
 
 --- task ---
 
-**Test:** Show someone else your project and get their feedback. Do you want make any changes to your gadget?
+**Test:** Laat iemand anders jouw project zien en vraag feedback. Wil je iets aan je gadget veranderen?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Fouten oplossen:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]] [[[pico-debug-led]]]
 
-Code runs, but nothing happens:
-+ Check that your inputs are connected correctly and that you used the correct pin in your code.
-+ Check the Thonny shell for any messages about variables or functions not being defined; you might have forgotten to change the examples to match your code.
-+ Check your code carefully. You could add `print` statements to help you understand what is happening.
-+ Check that you have called your functions.
+Code wordt uitgevoerd, maar er gebeurt niets:
++ Controleer of je ingangen correct zijn aangesloten en of je de juiste pin in je code hebt gebruikt.
++ Kijk in de Thonny-shell of er berichten zijn over variabelen of functies die niet worden gedefinieerd; je bent misschien vergeten om de voorbeelden aan te passen aan je code.
++ Controleer je code zorgvuldig. Je zou `print` statements kunnen toevoegen om je te helpen begrijpen wat er gebeurt.
++ Controleer of je je functies hebt aangeroepen.
 
 --- collapse ---
 
 ---
-title: Call a function
+Title: Roep een functie aan.
 ---
 
 --- code ---
@@ -328,45 +328,45 @@ happy()
 --- collapse ---
 
 ---
-title: My LED doesn't light when I call my function
+Title: Mijn LED licht niet op als ik mijn functie noem
 ---
 
-Check that the pins in your code match the pins your LED is connected to.
+Controleer of de pinnen in je code overeenkomen met de pinnen waarop je LED is aangesloten.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My RGB LED show the wrong colour
+Title: Mijn RGB-LED geeft de verkeerde kleur aan
 ---
 
-Check your code to make sure that your colour values are in the right order. Use the ['RGB colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.
+Controleer je code om er zeker van te zijn dat je kleurwaarden in de juiste volgorde staan. Gebruik de ['RGB kleur gids'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} om te controleren of de code overeenkomt met de kleur die je verwacht.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My sounds are not playing, or not playing as I expected
+Title: Mijn geluiden worden niet afgespeeld of worden niet afgespeeld zoals ik had verwacht
 ---
 
-Your code was working before you assembled your sensory gadget. It is unlikely that your code will be broken at this stage. The majority of bugs will be from wiring and components.
+Je code werkte voordat je je sensorische gadget samenstelde. Het is onwaarschijnlijk dat je code in dit stadium zal worden gebroken. Het merendeel van de fouten zal afkomstig zijn van bedrading en componenten.
 
-+ Check that your components have been wired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
-+ Look for any loose connections and secure with tape
-+ Check that you haven't covered any conductive elements of your circuit with sticky tape or glue
++ Controleer of de componenten op de juiste pinnen zijn aangesloten (je zou deze eerder moeten hebben genoteerd, ze worden bovenaan je code weergegeven)
++ Zoek naar losse aansluitingen en zet deze vast met tape
++ Controleer of je geen geleidende elementen van je circuit hebt bedekt met plakband of lijm
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The main tune delays when I press a button
+title: De hoofdmelodie wordt te laat afgespeeld wanneer ik op een knop druk
 ---
 
-When you use an event such as `when_pressed` to run a function, that function will run until it is finished and it will stop other code from running.
+Wanneer je een gebeurtenis gebruikt zoals `wanneer_ingedrukt` om een functie uit te voeren, wordt die functie uitgevoerd totdat deze is voltooid en stopt de andere code.
 
-If you want to start a tune from an event then you can use `play` with `wait=False`. The function will finish and the tune will continue playing without delaying the code running in your main code.
+Als je een melodie met een gebeurtenis ("event") wilt starten, kun je `play` gebruiken met `wait=False`. De functie wordt voltooid en de melodie blijft spelen zonder de code die in je hoofdcode wordt uitgevoerd te vertragen.
 
 --- code ---
 ---
@@ -386,25 +386,25 @@ button.when_pressed = annoying_sound
 
 --- collapse ---
 ---
-title: My wires aren't long enough now that they are in my sensory gadget
+Title: Mijn draden zijn niet lang genoeg nu ze in mijn sensorische gadget zitten
 ---
 
-Now that you have crafted your sensory gadget, you might need extra-long wires to attach your component to your Raspberry Pi pins. Look at the instructions above to 'join jumper wires to extend them'.
+Nu je je sensorische gadget hebt gemaakt, heb je mogelijk extra lange draden nodig om je component aan je Raspberry Pi-pinnen te bevestigen. Bekijk de instructies hierboven om 'verbindingsdraden te verbinden om ze te verlengen'.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My wires or components won't stay in place
+Title: Mijn draden of onderdelen blijven niet op hun plaats
 ---
 
-Some connections are stronger than others so you might find that you need to use tape to keep your wires connected to your components or to hold your components in place on your gadget. Look at the instructions above to 'secure wires and components using tape'.
+Sommige verbindingen zijn sterker dan andere, dus het kan zijn dat je tape moet gebruiken om je draden verbonden te houden met je componenten of om je componenten op hun plaats te houden. Bekijk de bovenstaande instructies om 'draden en onderdelen te beschermen met tape'.
 
 --- /collapse ---
 
-You might find a bug not listed here. Can you figure out how to fix it?
+Mogelijk vind je een fout die hier niet wordt vermeld. Kun je erachter komen hoe je het kunt oplossen?
 
-We love hearing about your bugs and how you fixed them. Use the feedback button at the bottom of this page if you found a different bug in your project.
+We horen graag over je fouten en hoe je ze hebt opgelost. Gebruik de feedback knop onderaan deze pagina als je een andere bug in je project hebt gevonden.
 
 --- /task ---
 
