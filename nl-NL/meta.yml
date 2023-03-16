@@ -1,18 +1,18 @@
 ---
-title: Sensory gadget
+title: Sensorische gadget
 hero_image: images/banner.png
-description: Create a sensory gadget using your Raspberry Pi Pico
+description: Maak een sensorische gadget met je Raspberry Pi Pico
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Wat ga je maken
   - 
-    title: Your idea
+    title: Jouw idee
   - 
-    title: Build and test
+    title: Bouwen en testen
     completion:
       - engaged
       - internal
@@ -21,8 +21,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: Share
+    title: Deel
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
