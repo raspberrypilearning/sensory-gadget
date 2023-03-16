@@ -1,76 +1,76 @@
 ## Checklist
 
-Did you meet the **project brief**? Think about your project and go through the checklist below and check off the ones that apply to your project.
+Voldoet je project aan de **projectbeschrijving**? Denk na over je project en doorloop de onderstaande checklist en vink af wat van toepassing is op je project.
 
-Does your sensory gadget:
+Voldoet je sensorische gadget aan volgende vragen:
 
 --- task ---
 
-Have multiple different kinds of input?
+Heb je meerdere verschillende soorten invoer?
 
 --- /task ---
 
 --- task ---
 
-Have multiple different outputs?
+Heb je meerdere verschillende uitgangen?
 
 --- /task ---
 
 --- task ---
 
-Appeal to the user and is it robust enough to be used?
+Is het aantrekkelijk voor de gebruiker en robuust genoeg om te worden gebruikt?
 
 --- /task ---
 
-Your sensory gadget could also:
+Je sensorische gadget kan ook:
 
 --- task ---
 
-Take ergonomics such as user comfort into consideration
-
---- /task ---
-
---- task ---
-
-Reset after user input or after a set amount of time
+Rekening houden met ergonomie zoals gebruikerscomfort
 
 --- /task ---
 
 --- task ---
 
-Connect to a specific theme
-
---- /task ---
-
-Reflecting about how you made your sensory gadget will help you in your future projects.
-
-Answer the questions below by drawing, writing, typing in a document, talking to someone, or in your own creative way that works best for you.
-
---- task ---
-
-How did you get your ideas?
+Zichzelf resetten na gebruikersinvoer of na een ingestelde tijdsduur
 
 --- /task ---
 
 --- task ---
 
-What cool new thing(s) did you learn?
+Verbonden zijn met een specifiek thema
+
+--- /task ---
+
+Nadenken over hoe je je sensorische gadget hebt gemaakt, zal je helpen in je toekomstige projecten.
+
+Beantwoord de onderstaande vragen door te tekenen, te schrijven, in een document te schrijven, met iemand te praten of op je eigen creatieve manier die het beste bij je past.
+
+--- task ---
+
+Hoe ben je aan je ideeën gekomen?
 
 --- /task ---
 
 --- task ---
 
-Mistakes are powerful. What mistakes did you make and how did they help you create your sensory gadget?
+Welke coole nieuwe dingen heb je geleerd?
 
 --- /task ---
 
-### Now you are the creator of your own sensory gadget!
+--- task ---
 
-Take a moment to celebrate what you have made.
+Fouten maken mag. Welke fouten heb je gemaakt en hoe hebben ze je geholpen om je sensorische gadget te maken?
+
+--- /task ---
+
+### Nu ben je de maker van je eigen sensorische gadget!
+
+Neem even de tijd om dit te vieren.
 
 --- task ---
 
-Where will you take your new powers? What will you make next?
+Waar ga je met je nieuwe kennis doen? Wat ga je hierna maken?
 
 --- /task ---
 
