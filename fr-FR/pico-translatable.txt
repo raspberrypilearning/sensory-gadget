@@ -1,109 +1,109 @@
-eat
+manger
 
-drink
+boire
 
-play
+jouer
 
-speaker
+hautparleur
 
-choose
+choisir
 
-confirm
+confirmer
 
 option
 
-choice
+choix
 
-sound_buzzer
+son_buzzer
 
-rgb
+rvb
 
-button
+bouton
 
 change_option
 
 led
 
-speaker1
+hautparleur1
 
-speaker2
+hautparleur2
 
-button1
+bouton1
 
-button2
+bouton2
 
-dial
+cadran
 
-tune1
+melodie1
 
-tune2
+melodie2
 
-1 pressed
+1 pressé
 
-2 pressed
+2 pressé
 
 hum
 
-power
+puissance
 
-off
+eteint
 
-tone
+ton
 
-on
+actif
 
-trigger
+declencher
 
-light
+lumiere
 
-red
+rouge
 
-yellow
+jaune
 
-delay
+delai
 
-dark
+sombre
 
-excited
+excite
 
-purple
+violet
 
-blue
+bleu
 
-worried
+inquiet
 
-happy
+heureux
 
-sad
+triste
 
-angry
+colere
 
-happy_button
+bouton_heureux
 
-sad_button
+bouton_triste
 
-angry_button
+bouton_colere
 
-energised
+energique
 
-calm
+calme
 
-focused
+concentre
 
-mood
+humeur
 
-good
+bien
 
 okay
 
-unsure
+incertain
 
-unhappy
+malheureux
 
-sound
+effets sonores
 
-annoying_sound
+son_ennuyeux
 
-speaker
+hautparleur
 
-button
+bouton
