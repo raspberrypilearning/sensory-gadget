@@ -2,6 +2,8 @@
 title: Sensorische gadget
 hero_image: images/banner.png
 description: Maak een sensorische gadget met je Raspberry Pi Pico
+meta_title: Raspberry Pi Pico-projecten | Sensorische gadget
+meta_description: A Raspberry Pi Pico project to create a fidget toy or sensory gadget using buttons, potentiometers, LEDs, and a buzzer.
 version: 4
 listed: true
 copyedit: true
