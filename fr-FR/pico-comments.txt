@@ -1,0 +1,99 @@
+Mémoriser l'option actuelle
+
+Appelle la fonction suivante et met à jour l'option
+
+Configurer RGBLED
+
+Configure d'autres LED RVB - plus il y en a, plus c'est lumineux !
+
+Configure un buzzer passif pour les sons de bourdonnement/démarrage/arrêt
+
+Bouton de configuration pour allumer le sabre
+
+Configure le potentiomètre pour changer la couleur de la lame et éteindre
+
+Éteindre les lumières et faire un son de « mise hors tension »
+
+Boucle de bruit blanc 1 seconde
+
+Choisit un nombre aléatoire ente 4000 et 6000
+
+Joue la tonalité pendant 1/1000e de seconde
+
+Choisit un nombre aléatoire ente 2000 et 4000
+
+Choisit un nombre aléatoire ente 1000 et 3000
+
+Choisit un nombre aléatoire ente 50 et 1000
+
+Faire le son de démarrage du sabre laser et allumer les lumières
+
+Boucle de bruit blanc 0.2 seconde
+
+Boucle de bruit blanc 0.4 seconde
+
+Choisit un nombre aléatoire ente 3000 et 5000
+
+Boucle éternelle vérifiant la lecture du cadran pour définir la couleur et changer le son du bourdonnement
+
+Réglage le plus élevé sur le cadran - 5
+
+Blanc
+
+Réglage le plus élevé sur le cadran - 4
+
+Lame violette
+
+Réglage le plus élevé sur le cadran - 3
+
+Lame bleue
+
+Réglage le plus élevé sur le cadran - 2
+
+Lame verte
+
+Réglage le plus bas sur le cadran (au-dessus de 0,01) - 1
+
+Lame rouge
+
+Si le cadran est complètement tourné vers le bas - 0
+
+Fonction Run off
+
+Quitter la boucle
+
+Indique à quelles broches les composants sont attachés sur le Pico
+
+Boucle de flamme vacillante
+
+Principalement rouge
+
+Jamais plus que rouge
+
+Pas de flamme
+
+Temps sombre avant la réinitialisation
+
+Boucle pour vérifier si l'interrupteur est fermé
+
+Ton humeur
+
+Allumer
+
+Ta première humeur
+
+Éteindre
+
+Ta deuxième humeur
+
+Ta première couleur
+
+Ta deuxième couleur
+
+Ta troisième humeur
+
+Passer à l'option suivante
+
+Appelle la fonction de choix lorsque le bouton est enfoncé
+
+Ne pas retarder le code principal
