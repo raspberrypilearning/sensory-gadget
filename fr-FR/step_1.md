@@ -122,7 +122,7 @@ confirmer.when_pressed = son_buzzer
 
 <div style="border-top: 15px solid #f3524f; background-color: whitesmoke; margin-bottom: 20px; padding: 10px;">
 
-### résumé du projet : Gadget sensoriel
+### Résumé du projet : Gadget sensoriel
 <hr style="border-top: 2px solid black;">
 Fabrique un gadget sensoriel que les gens voudront utiliser.
 

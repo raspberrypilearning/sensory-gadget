@@ -275,7 +275,7 @@ from picozero import Switch
 ### Potentiomètre
 
 [[[potentiometer-wiring]]]
-[[[potentiometer-pin]]]]
+[[[potentiometer-pin]]]
 
 --- collapse ---
 
