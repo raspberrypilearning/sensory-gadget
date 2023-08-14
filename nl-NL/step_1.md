@@ -8,7 +8,7 @@ Een <span style="color: #0faeb0">sensorische gadget</span> is iets waar je mee w
 
 Je gaat:
 + Je digitale maakvaardigheden gebruiken om een gadget voor een gebruiker te ontwerpen en te maken
-+ Fysieke ingangen gebruiken zoals knoppen en potentiometers om fysieke uitgangen zoals LED's en een zoemer te regelen
++ Fysieke ingangen gebruiken zoals knoppen en potentiometers om fysieke uitgangen zoals LED's en een zoemer te besturen
 + Anderen je gadget laten uitproberen en het verbeteren op basis van hun feedback
 
 --- no-print ---
@@ -49,7 +49,7 @@ Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 
 --- collapse ---
 ---
-Title: Zie binnenkant
+title: Bekijk van binnen
 ---
 --- code ---
 ---
@@ -132,7 +132,7 @@ Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 
 --- collapse ---
 ---
-Title: Zie binnenkant
+title: Bekijk van binnen
 ---
 --- code ---
 ---
@@ -155,7 +155,7 @@ button.when_pressed = change_option --- /code ---
 
 --- /collapse ---
 
-**De bezige bij** De vleugels van de bij hebben een keukenfolie op de achterkant en als ze omlaag worden gedrukt, verbinden ze zich met een ander stukje folie op de kaart; hierdoor speelt een zoemer een toon. Elke vleugel speelt een ander geluid. Een potentiometer bestuurt een blauwe LED op de staart van de bij.
+**De bezige bij** De vleugels van de bij hebben keukenfolie op de achterkant en als ze omlaag worden gedrukt, verbinden ze zich met een ander stukje folie op de kaart; hierdoor speelt een zoemer een toon. Elke vleugel speelt een ander geluid. Een potentiometer bestuurt een blauwe LED op de staart van de bij.
 
 <video width="640" height="360" controls>
 <source src="images/buzy-bee.mp4" type="video/mp4">
@@ -164,7 +164,7 @@ Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 
 --- collapse ---
 ---
-Title: Zie binnenkant
+title: Bekijk van binnen
 ---
 --- code ---
 ---
@@ -196,7 +196,7 @@ Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 
 --- collapse ---
 ---
-Title: Zie binnenkant
+title: Bekijk van binnen
 ---
 --- code ---
 ---
@@ -231,7 +231,7 @@ power.when_pressed = on --- /code ---
 
 --- collapse ---
 ---
-Title: Zie binnenkant
+title: Bekijk van binnen
 ---
 
 --- code ---
