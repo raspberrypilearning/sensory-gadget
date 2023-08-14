@@ -16,8 +16,8 @@ Gebruik deze stap om je sensorische gadget te plannen. Je kunt het plannen door 
 Denk aan het doel van je sensorische gadget.
 
 Dat kan zijn:
-+ Voor een jongere broer om meer te weten te komen over bezienswaardigheden en geluiden
-+ Een manier om de spanning te verlichten door knoppen in te drukken en geluiden te horen
++ Voor een jongere broer of zus om meer te weten te komen over bezienswaardigheden en geluiden
++ Een manier om de stress te verlichten door knoppen in te drukken en geluiden te horen
 + Een communicatiemiddel om mensen te helpen hun behoeften te uiten
 
 --- /task ---
@@ -64,7 +64,7 @@ Bedenk hoe je sensorische gadget eruit zal zien.
 Het zou:
 
 + Gebaseerd kunnen zijn op een sensorisch gadget dat al bestaat zoals een fidget kubus of popper
-+ Een thema kunnen hebben dat is gebaseerd op je favoriete strip, tv-programma of nummer
++ Een thema kunnen hebben dat is gebaseerd op je favoriete strip, tv-programma of liedje
 + Een zelfgemaakte behuizing kunnen hebben, gemaakt van een oude kartonnen doos, een lap stof of een plastic bakje
 
 --- /task ---
@@ -81,7 +81,7 @@ Verzamel de onderdelen die je nodig hebt om je sensorische gadget te maken. Je h
 
 **Test:** Sluit de Raspberry Pi Pico aan op de computer en controleer of deze werkt door de ingebouwde LED te laten knipperen.
 
-Hier is een voorbeeldcode voor het laten knipperen van de ingebouwde LED:
+Hier is voorbeeldcode voor het laten knipperen van de ingebouwde LED:
 
 --- code ---
 ---
