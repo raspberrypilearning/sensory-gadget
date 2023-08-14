@@ -6,7 +6,7 @@ Als je lid bent van een club, waarom zou je je project dan niet delen met vriend
 
 Inspireer de Raspberry Pi Foundation-gemeenschap met jouw project!
 
-Als je een video van je gadget wilt verzenden naar onze [zingtuigelijk gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} galerie, vul dan [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in. Vergeet niet om je identiteit te beschermen door ervoor te zorgen dat mensen niet (herkenbaar) in je video verschijnen.
+Als je een video van je gadget wilt verzenden naar onze [Sensorische gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"}-galerij, vul dan [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in. Vergeet niet om je identiteit te beschermen door ervoor te zorgen dat mensen niet (herkenbaar) in je video verschijnen.
 
 ![Een schermafdruk van onze Community Gallery-pagina voor het Introduction to Pico-pad met galerieën voor stemmingsindicator, geluidsmachine en sensorische gadget-projecten.](images/community-galleries.png)
 
@@ -45,6 +45,6 @@ De kaart met gaten is vervangen door een lasergesneden dodecaëder, met de logo'
 
 --- task ---
 
-Bekijk onze [zingtuigelijk gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} galerie om projecten te bekijken die zijn gemaakt door onze community-leden.
+Bekijk onze [Sensorische gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"}-galerij om projecten te bekijken die zijn gemaakt door onze community-leden.
 
 --- /task ---

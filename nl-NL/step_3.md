@@ -27,7 +27,7 @@ Je hebt een aantal echt nuttige vaardigheden opgebouwd. Hier is een herinnering 
 
 [[[single-led-wiring]]]
 
-[[[multiple-single-led-wiring]]] 
+[[[multiple-single-led-wiring]]]
 
 [[[sing-led-pins]]]
 
@@ -151,7 +151,7 @@ def verdrietig(): # Je tweede stemming
 --- collapse ---
 
 ---
-title: Knop importeren
+title: Button importeren
 ---
 
 --- code ---
@@ -251,7 +251,7 @@ knop.when_pressed = keuze # Roep de keuzefunctie op wanneer de knop wordt ingedr
 --- collapse ---
 
 ---
-title: Import schakelaar
+title: Switch importeren
 ---
 
 --- code ---
@@ -280,7 +280,7 @@ from picozero import Switch
 --- collapse ---
 
 ---
-title: Import potentiometer
+title: Potentiometer importeren
 ---
 
 --- code ---
@@ -359,7 +359,7 @@ Je kunt de tape later verwijderen als je de onderdelen opnieuw wilt gebruiken.
 Code wordt uitgevoerd, maar er gebeurt niets:
 + Controleer of je ingangen correct zijn aangesloten en of je de juiste pin in je code hebt gebruikt.
 + Kijk in de Thonny-shell of er berichten zijn over variabelen of functies die niet worden gedefinieerd; je bent misschien vergeten om de voorbeelden aan te passen aan je code.
-+ Controleer je code zorgvuldig. Je zou `print` statements kunnen toevoegen om je te helpen begrijpen wat er gebeurt.
++ Controleer je code zorgvuldig. Je zou `print` commando's kunnen toevoegen om je te helpen begrijpen wat er gebeurt.
 + Controleer of je je functies hebt aangeroepen.
 
 --- collapse ---
@@ -391,7 +391,7 @@ gelukkig()
 --- collapse ---
 
 ---
-title: Mijn LED licht niet op als ik mijn functie noem
+title: Mijn LED licht niet op als ik mijn functie aanroep
 ---
 
 Controleer of de pinnen in je code overeenkomen met de pinnen waarop je LED is aangesloten.
@@ -427,7 +427,7 @@ Je code werkte voordat je je sensorische gadget samenstelde. Het is onwaarschijn
 title: De hoofdmelodie wordt te laat afgespeeld wanneer ik op een knop druk
 ---
 
-Wanneer je een gebeurtenis gebruikt zoals `wanneer_ingedrukt` om een functie uit te voeren, wordt die functie uitgevoerd totdat deze is voltooid en stopt de andere code.
+Wanneer je een gebeurtenis gebruikt zoals `when_pressed` om een functie uit te voeren, wordt die functie uitgevoerd totdat deze is voltooid en stopt de andere code.
 
 Als je een melodie met een gebeurtenis ("event") wilt starten, kun je `play` gebruiken met `wait=False`. De functie wordt voltooid en de melodie blijft spelen zonder de code die in je hoofdcode wordt uitgevoerd te vertragen.
 
@@ -455,7 +455,7 @@ knop.when_pressed = vervelend_geluid
 title: Mijn draden zijn niet lang genoeg nu ze in mijn sensorische gadget zitten
 ---
 
-Nu je je sensorische gadget hebt gemaakt, heb je mogelijk extra lange draden nodig om je component aan je Raspberry Pi-pinnen te bevestigen. Bekijk de instructies hierboven om 'verbindingsdraden te verbinden om ze te verlengen'.
+Nu je je sensorische gadget hebt gemaakt, heb je mogelijk extra lange draden nodig om je component aan je Raspberry Pi Pico-pinnen te bevestigen. Bekijk de instructies hierboven om 'verbindingsdraden te verbinden om ze te verlengen'.
 
 --- /collapse ---
 
