@@ -23,7 +23,7 @@ Hier zijn een paar andere ideeën die je zou kunnen proberen:
 
 Het originele **Sterrenhemel** project gebruikte een enkele RGB-LED en een stuk karton met gaten erin geprikt om een sterrenhemel te simuleren met geprojecteerd licht, dat met een knop in- en uitgeschakeld kon worden.
 
-Deze verbeterde versie van het project voegt nog een RGB-LED toe om de helderheid te verhogen, en voegt een diffuser toe voor de LED's om het licht breder te verspreiden.
+Deze verbeterde versie van het project voegt nog een RGB-LED toe om de helderheid te verhogen, en voegt een diffuser (verdeler) toe voor de LED's om het licht breder te verspreiden.
 
 De kaart met gaten is vervangen door een lasergesneden dodecaëder, met de logo's van populaire superhelden die worden gebruikt als uitsparingen om het licht in de kamer te projecteren.
 
@@ -50,7 +50,7 @@ De kaart met gaten is vervangen door een lasergesneden dodecaëder, met de logo'
 
 --- task ---
 
-Bekijk onze [Sensorische gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"} galerie om projecten te bekijken die zijn gemaakt door onze community-leden.
+Bekijk onze [Sensorische gadget - Community](https://wke.lt/w/s/qX5TaK){:target="_blank"}-galerij om projecten te bekijken die zijn gemaakt door onze community-leden.
 
 --- /task ---
 
