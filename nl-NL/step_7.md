@@ -2,11 +2,11 @@
 
 Je hebt het einde van het pad [Inleiding tot de Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) bereikt!
 
-Nu kun je al je ideeën tot leven brengen en de Raspberry Pi Pico gebruiken om meer coole dingen te maken. Als je een herinnering nodig hebt aan wat je hebt geleerd, kun je naar de [Inleiding tot de Raspberry Pi Pico-gids](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico)gaan.
+Nu kun je al je ideeën tot leven brengen en de Raspberry Pi Pico gebruiken om meer coole dingen te maken. Als je een herinnering nodig hebt aan wat je hebt geleerd, kun je naar de [Inleiding tot de Raspberry Pi Pico-gids](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico) gaan.
 
 --- collapse ---
 ---
-title: doe mee met Coolest Projects
+title: Doe mee met Coolest Projects
 ---
 
 Bekijk [Coolest Projects](https://coolestprojects.org/){:target="_ blank"}, dé technologie showcase voor jongeren! Op de [Coolest Projects-website](https://coolestprojects.org/){:target="_blank"} kun je meer te weten komen over de projectcategorieën en zien wanneer de projectregistratie is geopend, en je klaar maken om je project te registreren!
